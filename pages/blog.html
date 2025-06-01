@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OMA OPA CAKERY</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Playfair+Display&display=swap" rel="stylesheet">
+  <link rel="icon" href="Assets/icon/logo 2.png" type="image/png">
+    <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Open Sans', 'sans-serif'],
+            heading: ['Playfair Display', 'serif'],
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="font-sans bg-white text-gray-800">
+
+  <!-- Navbar -->
+  <header class="bg-[#6F4525] text-white fixed top-0 left-0 w-full z-50">
+    <div class="max-w-7xl mx-auto flex justify-between items-center p-4">
+      <img src="../Assets/icon/logo.jpeg" alt="Logo" class="h-10">
+      <nav class="space-x-6 hidden md:block">
+        <a href="../index.html" class="hover:text-yellow-300">Home</a>
+        <a href="../pages/tentang-kami.html" class="hover:text-yellow-300">Tentang Kami</a>
+        <a href="../pages/produk.html" class="hover:text-yellow-300">Produk</a>
+        <a href="../pages/blog.html" class="hover:text-yellow-300">Blog</a>
+        <a href="../pages/kontak.html" class="hover:text-yellow-300">Kontak</a>
+      </nav>
+      <a href="../pages/kontak.html" class="bg-[#DDCFAB] text-[#333237] px-4 py-2 rounded hover:bg-yellow-200">Hubungi Kami</a>
+    </div>
+  </header>
+
+    <section class="relative h-[300px] md:h-[200px] overflow-hidden">
+    <img src="../Assets/image/bg tentang kami.png" alt="Background Tentang Kami" class="absolute inset-0 w-full h-full object-cover brightness-75">
+    <div class="relative z-10 flex items-center justify-center h-full">
+      <h1 class="text-white text-3xl md:text-4xl font-semibold tracking-wider">BLOG</h1>
+    </div>
+    </section>
+
+    <main>
+    <section class="py-16 bg-white">
+      <div class="mb-8 flex flex-wrap justify-center gap-4">
+        <button class="category-btn px-4 py-2 rounded-md border text-sm hover:bg-[#6B3F28] hover:text-white bg-[#6B3F28] text-white font-semibold" data-category="all">Semua</button>
+        <button class="category-btn px-4 py-2 rounded-md border text-sm hover:bg-[#6B3F28] hover:text-white" data-category="produk">Produk & Inovasi</button>
+        <button class="category-btn px-4 py-2 rounded-md border text-sm hover:bg-[#6B3F28] hover:text-white" data-category="bisnis">Bisnis & Kemitraan</button>
+        <button class="category-btn px-4 py-2 rounded-md border text-sm hover:bg-[#6B3F28] hover:text-white" data-category="tips">Tips & Inspirasi Kuliner</button>
+      </div>
+
+      <div class="max-w-7xl mx-auto px-4 text-center">
+        <div id="blog-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-4 md:px-8">
+        <div class="border rounded-md p-4 shadow-sm text-left" data-category="tips">
+            <img src="../Assets/image/blog 1.png" alt="Blog 1" class="w-full h-48 object-cover mb-3 rounded-md">
+            <p class="text-sm text-gray-500 mb-1">By Auleriana | 2 April 2025</p>
+            <h3 class="font-heading font-semibold text-gray-800 mb-2">Rahasia Tekstur Lembut Bolu Ala Oma Opa</h3>
+            <p class="text-gray-600 mb-4 text-sm">Mengulas teknik sederhana namun ampuh yang membuat bolu tetap lembut meski tanpa pengawet.</p>
+            <a href="Blog - Rahasia Tekstur.html" class="px-4 py-2 text-sm text-[#6B3F28] border border-[#6B3F28] rounded-md bg-[#FAF8F3] hover:bg-[#6B3F28] hover:text-white transition">Read More</a>
+        </div>
+
+        <div class="border rounded-md p-4 shadow-sm text-left" data-category="tips">
+            <img src="../Assets/image/blog 2.png" alt="Blog 2" class="w-full h-48 object-cover mb-3 rounded-md">
+            <p class="text-sm text-gray-500 mb-1">By Laila Yusroni | 6 Maret 2025</p>
+            <h3 class="font-heading font-semibold text-gray-800 mb-2">Bingkisan Manis: Bolu sebagai Hadiah yang Berkesan</h3>
+            <p class="text-gray-600 mb-4 text-sm">Cerita pelanggan yang memilih bolu Oma Opa sebagai hampers ulang tahun.</p>
+            <a href="blog - Bingkisan Manis.html" class="px-4 py-2 text-sm text-[#6B3F28] border border-[#6B3F28] rounded-md bg-[#FAF8F3] hover:bg-[#6B3F28] hover:text-white transition">Read More</a>
+        </div>
+
+        <div class="border rounded-md p-4 shadow-sm text-left" data-category="produk">
+            <img src="../Assets/image/blog 3.png" alt="Blog 3" class="w-full h-48 object-cover mb-3 rounded-md">
+            <p class="text-sm text-gray-500 mb-1">By Annisa Putri | 17 Januari 2025</p>
+            <h3 class="font-heading font-semibold text-gray-800 mb-2">Matcha, Keju, Coklat: Mana Topping Favoritmu?</h3>
+            <p class="text-gray-600 mb-4 text-sm">Review rasa dan cerita menarik dari pelanggan tentang topping favorit mereka.</p>
+            <a href="blog - Matcha, Keju, Coklat.html" class="px-4 py-2 text-sm text-[#6B3F28] border border-[#6B3F28] rounded-md bg-[#FAF8F3] hover:bg-[#6B3F28] hover:text-white transition">Read More</a>
+        </div>
+
+        <div class="border rounded-md p-4 shadow-sm text-left" data-category="tips">
+            <img src="../Assets/image/blog 1.png" alt="Blog 3" class="w-full h-48 object-cover mb-3 rounded-md">
+            <p class="text-sm text-gray-500 mb-1">By Bayu Setiawan | 2 Mei 2025</p>
+            <h3 class="font-heading font-semibold text-gray-800 mb-2">Ngobrol Sambil Nyemil: Tradisi Sederhana yang Dirindukan</h3>
+            <p class="text-gray-600 mb-4 text-sm">Refleksi kecil tentang momen ngobrol santai di teras rumah dengan camilan khas Oma Opa Cakery.</p>
+            <a href="blog - Ngobrol Sambil Nyemil.html" class="px-4 py-2 text-sm text-[#6B3F28] border border-[#6B3F28] rounded-md bg-[#FAF8F3] hover:bg-[#6B3F28] hover:text-white transition">Read More</a>
+        </div>
+
+        <div class="border rounded-md p-4 shadow-sm text-left" data-category="produk">
+            <img src="../Assets/image/blog 4.png" alt="Blog 3" class="w-full h-48 object-cover mb-3 rounded-md">
+            <p class="text-sm text-gray-500 mb-1">By Raka Prasetyo | 6 April 2025</p>
+            <h3 class="font-heading font-semibold text-gray-800 mb-2">Perjalanan Bolu Mini: Kecil-Kecil Jadi Idola Baru</h3>
+            <p class="text-gray-600 mb-4 text-sm">Ulasan tentang kenapa bolu mini menjadi inovasi yang disukai semua kalangan karena praktis dan imut.</p>
+            <a href="blog - Perjalanan Bolu Mini.html" class="px-4 py-2 text-sm text-[#6B3F28] border border-[#6B3F28] rounded-md bg-[#FAF8F3] hover:bg-[#6B3F28] hover:text-white transition">Read More</a>
+        </div>
+ 
+        <div class="border rounded-md p-4 shadow-sm text-left" data-category="bisnis">
+            <img src="../Assets/image/blog 5.png" alt="Blog 3" class="w-full h-48 object-cover mb-3 rounded-md">
+            <p class="text-sm text-gray-500 mb-1">By Ratih Nurhaliza | 21 Februari 2025</p>
+            <h3 class="font-heading font-semibold text-gray-800 mb-2">Cerita Mitra: Dari Pelanggan Setia Menjadi Pengusaha Bolu</h3>
+            <p class="text-gray-600 mb-4 text-sm">Kisah inspiratif seorang mitra Oma Opa yang berhasil membuka cabang sendiri berkat peluang kemitraan.</p>
+            <a href="blog - Cerita Mitra.html" class="px-4 py-2 text-sm text-[#6B3F28] border border-[#6B3F28] rounded-md bg-[#FAF8F3] hover:bg-[#6B3F28] hover:text-white transition">Read More</a>
+        </div>
+        </div>
+    </div>
+    </section>
+    </main>
+
+
+
+  <footer class="bg-[#7b4a22] text-white px-6 pt-10 pb-6">
+  <div class="max-w-7xl mx-auto">
+    <div class="grid grid-cols-1 md:grid-cols-5 gap-4">
+      <div class="md:col-span-1 flex justify-center md:justify-start pl-10">
+        <img src="../Assets/icon/logo.jpeg" alt="Logo Oma Opa" class="w-24 h-auto object-contain" />
+      </div>
+      <div class="md:col-span-4 text-sm text-justify max-w-4xl pl-96">
+        <p>
+          OMA OPA CAKERY menghadirkan kelezatan kue rumahan dengan resep turun-temurun dari Oma dan Opa. Kami percaya bahwa setiap gigitan membawa kehangatan, nostalgia, dan rasa cinta.
+        </p>
+        <br>
+        <div class="flex justify-start mt-2 gap-3">
+          <a href="https://api.whatsapp.com/send?phone=6281223860200" target="_blank">
+            <img src="../Assets/icon/footer 1.png" alt="WA" class="w-6 h-6" />
+          </a>
+          <a href="https://instagram.com/omaopa_cakery" target="_blank">
+            <img src="../Assets/icon/footer 2.png" alt="IG" class="w-6 h-6" />
+          </a>
+          <a href="https://www.tiktok.com/@omaopa_cakery?_t=ZS-8wijPa0jlMV&_r=1" target="_blank">
+            <img src="../Assets/icon/footer 3.png" alt="TikTok" class="w-6 h-6" />
+          </a>
+          <a href="https://gofood.link/a/JvrFqbQ" target="_blank">
+            <img src="../Assets/icon/footer 4.png" alt="Gojek" class="w-6 h-6" />
+          </a>
+          <a href="https://shopee.co.id/philipsuryadi" target="_blank">
+            <img src="../Assets/icon/footer 5.png" alt="Shopee" class="w-6 h-6" />
+          </a>
+          <a href="https://www.tokopedia.com/omaopa" target="_blank">
+            <img src="../Assets/icon/footer 6.png" alt="Tokopedia" class="w-6 h-6" />
+          </a>
+        </div>
+      </div>
+    </div>
+    <hr class="border-t border-white opacity-50 my-6">
+    <p class="text-sm font-medium">Sosial Media & Marketplace:</p>
+    <div class="flex flex-col md:flex-row md:justify-between text-sm text-center md:text-left gap-3">
+      <div class="flex justify-center md:justify-start gap-6">
+        <a href="../index.html" class="hover:underline">Home</a>
+        <a href="../pages/tentang-kami.html" class="hover:underline">Tentang Kami</a>
+        <a href="../pages/produk.html" class="hover:underline">Produk</a>
+        <a href="../pages/blog.html" class="hover:underline">Blog</a>
+        <a href="../pages/kontak.html" class="hover:underline">Contact</a>
+      </div>
+      <div class="text-xs text-gray-200">
+        © 2025 omaopa cakery. All Rights Reserved.
+      </div>
+    </div>
+  </div>
+</footer>
+<script src="../script.js"></script>
+</body>
+</html>

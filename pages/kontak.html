@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OMA OPA CAKERY</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Playfair+Display&display=swap" rel="stylesheet">
+  <link rel="icon" href="Assets/icon/logo 2.png" type="image/png">
+    <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Open Sans', 'sans-serif'],
+            heading: ['Playfair Display', 'serif'],
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="font-sans bg-white text-gray-800">
+
+  <!-- Navbar -->
+  <header class="bg-[#6F4525] text-white fixed top-0 left-0 w-full z-50">
+    <div class="max-w-7xl mx-auto flex justify-between items-center p-4">
+      <img src="../Assets/icon/logo.jpeg" alt="Logo" class="h-10">
+      <nav class="space-x-6 hidden md:block">
+        <a href="../index.html" class="hover:text-yellow-300">Home</a>
+        <a href="../pages/tentang-kami.html" class="hover:text-yellow-300">Tentang Kami</a>
+        <a href="../pages/produk.html" class="hover:text-yellow-300">Produk</a>
+        <a href="../pages/blog.html" class="hover:text-yellow-300">Blog</a>
+        <a href="../pages/kontak.html" class="hover:text-yellow-300">Kontak</a>
+      </nav>
+      <a href="../pages/kontak.html" class="bg-[#DDCFAB] text-[#333237] px-4 py-2 rounded hover:bg-yellow-200">Hubungi Kami</a>
+    </div>
+  </header>
+
+    <section class="relative h-[300px] md:h-[200px] overflow-hidden">
+    <img src="../Assets/image/bg tentang kami.png" alt="Background Tentang Kami" class="absolute inset-0 w-full h-full object-cover brightness-75">
+    <div class="relative z-10 flex items-center justify-center h-full">
+      <h1 class="text-white text-3xl md:text-4xl font-semibold tracking-wider">KONTAK</h1>
+    </div>
+    </section>
+
+<!-- Konten Utama -->
+<section class="py-16 px-4 md:px-10 max-w-7xl mx-auto">
+  <div class="grid grid-cols-1 md:grid-cols-5 gap-8 items-stretch">
+    
+    <!-- Kontak Info (2/5) -->
+    <div class="md:col-span-2 bg-yellow-300 p-6 rounded-md flex flex-col justify-between h-full space-y-4">
+      <div>
+        <h2 class="text-lg font-semibold text-gray-800">Let’s Talk with Us</h2>
+        <p class="text-sm text-gray-700 leading-relaxed mt-2">
+          Oma Opa Cakery siap melayani pertanyaan dan kerja sama Anda. Jangan ragu untuk menghubungi kami melalui kontak di bawah ini.
+        </p>
+      </div>
+
+      <div class="space-y-4 text-sm text-gray-700">
+        <a href="https://api.whatsapp.com/send?phone=6281223860200" target="_blank" class="flex items-center gap-2 hover:underline">
+          <img src="../Assets/icon/footer 1.png" alt="Whatsapp" class="w-5 h-5"> Whatsapp
+        </a>
+        <a href="https://instagram.com/omaopa_cakery" target="_blank" class="flex items-center gap-2 text-black hover:underline">
+          <img src="../Assets/icon/footer 2.png" alt="Instagram" class="w-5 h-5"> Instagram
+        </a>
+        <a href="https://maps.app.goo.gl/xUdLa1Wv5adjYaUR8" target="_blank" class="flex items-center gap-2 text-black hover:underline">
+          <img src="../Assets/icon/lokasi.png" alt="Alamat" class="w-5 h-5"> Alamat
+        </a>
+        <p class="flex items-center gap-2">
+          <img src="../Assets/icon/jam.png" alt="Jam Operasional" class="w-5 h-5"> Buka setiap hari jam 07.00 - 21.00 WIB
+        </p>
+      </div>
+    </div>
+
+    <!-- Formulir Kontak (3/5) -->
+    <div class="md:col-span-3 border rounded-md p-6 shadow-sm h-full">
+      <form action="https://formspree.io/f/xanorwkl" method="POST" class="space-y-4 h-full flex flex-col justify-between">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <input name="firstName" type="text" placeholder="First name" required class="w-full border border-gray-300 rounded-md px-4 py-2 text-sm">
+          <input name="lastName" type="text" placeholder="Last name" required class="w-full border border-gray-300 rounded-md px-4 py-2 text-sm">
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <input name="email" type="email" placeholder="Email" required class="w-full border border-gray-300 rounded-md px-4 py-2 text-sm">
+          <input name="phone" type="text" placeholder="No. Telp" class="w-full border border-gray-300 rounded-md px-4 py-2 text-sm">
+        </div>
+        <textarea name="message" placeholder="Write your message..." rows="4" required class="w-full border border-gray-300 rounded-md px-4 py-2 text-sm"></textarea>
+        <button type="submit" class="bg-[#6B3F28] hover:bg-[#472918] text-white text-sm font-medium px-6 py-2 rounded-md flex items-center gap-2 w-fit">
+          <img src="../Assets/icon/send.png" alt="Send Icon" class="w-5 h-5" />
+          <span>Send Message</span>
+        </button>
+      </form>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- Map -->
+<section class="py-16 bg-white">
+  <div class="max-w-4xl mx-auto text-center px-4">
+    <div class="w-full -mt-12 h-[400px] rounded-xl overflow-hidden shadow-md">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.1886362794608!2d110.76722097357616!3d-7.554399674589914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a155d58111cef%3A0xf78c63277f3d834d!2sOma%20Opa%20Cakery%20UMS!5e0!3m2!1sid!2sid!4v1748345828696!5m2!1sid!2sid"
+        width="100%"
+        height="100%"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        class="border-0"
+      ></iframe>
+    </div>
+  </div>
+</section>
+
+  <footer class="bg-[#7b4a22] text-white px-6 pt-10 pb-6">
+  <div class="max-w-7xl mx-auto">
+    <div class="grid grid-cols-1 md:grid-cols-5 gap-4">
+      <div class="md:col-span-1 flex justify-center md:justify-start pl-10">
+        <img src="../Assets/icon/logo.jpeg" alt="Logo Oma Opa" class="w-24 h-auto object-contain" />
+      </div>
+      <div class="md:col-span-4 text-sm text-justify max-w-4xl pl-96">
+        <p>
+          OMA OPA CAKERY menghadirkan kelezatan kue rumahan dengan resep turun-temurun dari Oma dan Opa. Kami percaya bahwa setiap gigitan membawa kehangatan, nostalgia, dan rasa cinta.
+        </p>
+        <br>
+        <div class="flex justify-start mt-2 gap-3">
+          <p class="text-sm font-medium">Sosial Media & Marketplace:</p>
+          <a href="https://api.whatsapp.com/send?phone=6281223860200" target="_blank">
+            <img src="../Assets/icon/footer 1.png" alt="WA" class="w-6 h-6" />
+          </a>
+          <a href="https://instagram.com/omaopa_cakery" target="_blank">
+            <img src="../Assets/icon/footer 2.png" alt="IG" class="w-6 h-6" />
+          </a>
+          <a href="https://www.tiktok.com/@omaopa_cakery?_t=ZS-8wijPa0jlMV&_r=1" target="_blank">
+            <img src="../Assets/icon/footer 3.png" alt="TikTok" class="w-6 h-6" />
+          </a>
+          <a href="https://gofood.link/a/JvrFqbQ" target="_blank">
+            <img src="../Assets/icon/footer 4.png" alt="Gojek" class="w-6 h-6" />
+          </a>
+          <a href="https://shopee.co.id/philipsuryadi" target="_blank">
+            <img src="../Assets/icon/footer 5.png" alt="Shopee" class="w-6 h-6" />
+          </a>
+          <a href="https://www.tokopedia.com/omaopa" target="_blank">
+            <img src="../Assets/icon/footer 6.png" alt="Tokopedia" class="w-6 h-6" />
+          </a>
+        </div>
+      </div>
+    </div>
+    <hr class="border-t border-white opacity-50 my-6">
+    <div class="flex flex-col md:flex-row md:justify-between text-sm text-center md:text-left gap-3">
+      <div class="flex justify-center md:justify-start gap-6">
+        <a href="../index.html" class="hover:underline">Home</a>
+        <a href="../pages/tentang-kami.html" class="hover:underline">Tentang Kami</a>
+        <a href="../pages/produk.html" class="hover:underline">Produk</a>
+        <a href="../pages/blog.html" class="hover:underline">Blog</a>
+        <a href="../pages/kontak.html" class="hover:underline">Contact</a>
+      </div>
+      <div class="text-xs text-gray-200">
+        © 2025 omaopa cakery. All Rights Reserved.
+      </div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,71 @@
+[
+  {
+    "id": "1",
+    "nama": "Ogura Cheese Topping Half Mix",
+    "harga": 56000,
+    "gambar": "Assets/image/produk 1.png",
+    "deskripsi": "Ogura lembut dengan topping keju dan coklat pilihan.",
+    "marketplace": ["whatsapp", "shopee", "tokopedia"]
+  },
+    {
+    "id": "2",
+    "nama": "Ogura Choco Topping Half Mix",
+    "harga": 56000,
+    "gambar": "Assets/image/produk 2.png",
+    "deskripsi": "Ogura manis dengan topping coklat leleh premium.",
+    "marketplace": ["whatsapp", "shopee", "tokopedia"]
+  },
+  {
+    "id": "3",
+    "nama": "Ogura Cheese Full Topping",
+    "harga": 56000,
+    "gambar": "Assets/image/produk 3.png",
+    "deskripsi": "Ogura penuh keju parut pilihan, lumer di mulut.",
+    "marketplace": ["whatsapp", "shopee", "tokopedia"]
+  },
+  {
+    "id": "4",
+    "nama": "Ogura Choco Full Topping",
+    "harga": 56000,
+    "gambar": "Assets/image/produk 4.png",
+    "deskripsi": "Ogura dengan lapisan coklat yang tebal dan menggoda.",
+   "marketplace": ["whatsapp", "shopee", "tokopedia"]
+  },
+    {
+    "id": "5",
+    "nama": "Ogura Cheese Topping Half Mix",
+    "harga": 56000,
+    "gambar": "Assets/image/produk 5.png",
+    "deskripsi": "Ogura lembut dengan topping keju dan coklat pilihan.",
+    "marketplace": ["whatsapp", "shopee", "tokopedia"]
+  },
+    {
+    "id": "6",
+    "nama": "Ogura Choco Topping Half Mix",
+    "harga": 56000,
+    "gambar": "Assets/image/produk 6.png",
+    "deskripsi": "Ogura manis dengan topping coklat leleh premium.",
+    "marketplace": ["whatsapp", "shopee", "tokopedia"]
+  },
+  {
+    "id": "7",
+    "nama": "Ogura Cheese Full Topping",
+    "harga": 56000,
+    "gambar": "Assets/image/produk 7.png",
+    "deskripsi": "Ogura penuh keju parut pilihan, lumer di mulut.",
+    "marketplace": ["whatsapp", "shopee", "tokopedia"]
+  },
+  {
+    "id": "8",
+    "nama": "Ogura Choco Full Topping",
+    "harga": 56000,
+    "gambar": "Assets/image/produk 8.png",
+    "deskripsi": "Ogura dengan lapisan coklat yang tebal dan menggoda.",
+   "marketplace": ["whatsapp", "shopee", "tokopedia"]
+  }
+
+
+]
+
+
+

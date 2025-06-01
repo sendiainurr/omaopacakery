@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OMA OPA CAKERY</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Playfair+Display&display=swap" rel="stylesheet">
+  <link rel="icon" href="Assets/icon/logo 2.png" type="image/png">
+    <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Open Sans', 'sans-serif'],
+            heading: ['Playfair Display', 'serif'],
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="font-sans bg-white text-gray-800">
+
+  <header class="bg-[#6F4525] text-white fixed top-0 left-0 w-full z-50">
+    <div class="max-w-7xl mx-auto flex justify-between items-center p-4">
+      <img src="../Assets/icon/logo.jpeg" alt="Logo" class="h-10">
+      <nav class="space-x-6 hidden md:block">
+        <a href="../index.html" class="hover:text-yellow-300">Home</a>
+        <a href="../pages/tentang-kami.html" class="hover:text-yellow-300">Tentang Kami</a>
+        <a href="../pages/produk.html" class="hover:text-yellow-300">Produk</a>
+        <a href="../pages/blog.html" class="hover:text-yellow-300">Blog</a>
+        <a href="../pages/kontak.html" class="hover:text-yellow-300">Kontak</a>
+      </nav>
+      <a href="../pages/kontak.html" class="bg-[#DDCFAB] text-[#333237] px-4 py-2 rounded hover:bg-yellow-200">Hubungi Kami</a>
+    </div>
+  </header>
+
+    <section class="relative h-[300px] md:h-[200px] overflow-hidden">
+    <img src="../Assets/image/bg tentang kami.png" alt="Background Tentang Kami" class="absolute inset-0 w-full h-full object-cover brightness-75">
+    <div class="relative z-10 flex items-center justify-center h-full">
+      <h1 class="text-white text-3xl md:text-4xl font-semibold tracking-wider">ALAMAT CABANG</h1>
+    </div>
+    </section>
+
+<section class="py-16 bg-white">
+  <div class="text-center mb-8">
+    <div class="inline-flex gap-2">
+      <button class="tab-button bg-yellow-400 text-white px-4 py-2 rounded-md" data-tab="jateng">Jawa Tengah</button>
+      <button class="tab-button px-4 py-2 rounded-md text-gray-700 hover:bg-gray-200" data-tab="jatim">Jawa Timur</button>
+      <button class="tab-button px-4 py-2 rounded-md text-gray-700 hover:bg-gray-200" data-tab="jogja">DIY Jogjakarta</button>
+    </div>
+  </div>
+
+  <div class="tab-content" id="jateng">
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 px-8">
+
+      <div class="bg-white rounded-lg overflow-hidden shadow">
+        <div class="w-full h-48">
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.1886362794608!2d110.76722097357616!3d-7.554399674589914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a155d58111cef%3A0xf78c63277f3d834d!2sOma%20Opa%20Cakery%20UMS!5e0!3m2!1sid!2sid!4v1748345828696!5m2!1sid!2sid" 
+            width="100%" 
+            height="100%" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+        <div class="p-4 text-sm text-gray-700">
+          <h3 class="font-semibold">Oma Opa Cakery UNS</h3>
+          <p>Jl. Kartika Jl. Ngoresan No.1, Jebres, Kec. Jebres, Kota Surakarta, Jawa Tengah 57126</p>
+        </div>
+      </div>
+      <div class="bg-white rounded-lg overflow-hidden shadow">
+        <div class="w-full h-48">
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.187462624433!2d110.85553627357622!3d-7.554527874591382!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a1777f623d615%3A0x3759d0a8620df118!2sOma%20Opa%20Cakery%20UNS!5e0!3m2!1sid!2sid!4v1748402661823!5m2!1sid!2sid" 
+            width="100%" 
+            height="100%" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+        <div class="p-4 text-sm text-gray-700">
+          <h3 class="font-semibold">Oma Opa Cakery Makamhaji</h3>
+          <p>Jl. Makam H. No.453-461, Dusun I, Makamhaji, Kec. Kartasura, Sukoharjo, Jawa tengah</p>
+        </div>
+      </div>
+      <div class="bg-white rounded-lg overflow-hidden shadow">
+        <div class="w-full h-48">
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.070827040308!2d110.77944467357642!3d-7.5672573747358!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a15b7fa95781d%3A0xb0780dbc28c9fa83!2sOma%20Opa%20Cakery%20Makamhaji!5e0!3m2!1sid!2sid!4v1748402786083!5m2!1sid!2sid" 
+            width="100%" 
+            height="100%" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+        <div class="p-4 text-sm text-gray-700">
+          <h3 class="font-semibold">Oma Opa Cakery Laweyan Solo</h3>
+          <p>Jl. Dr. Rajiman No.495, Bumi, Kec. Laweyan, Kota Surakarta, Jawa Tengah 57148</p>
+        </div>
+      </div>
+      <div class="bg-white rounded-lg overflow-hidden shadow">
+        <div class="w-full h-48">
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.038331896223!2d110.79910657357647!3d-7.5708000747760185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a155daf343649%3A0xb59dbeaf6791738b!2sOma%20Opa%20Cakery%20Laweyan%20Solo!5e0!3m2!1sid!2sid!4v1748402896753!5m2!1sid!2sid" 
+            width="100%" 
+            height="100%" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+        <div class="p-4 text-sm text-gray-700">
+          <h3 class="font-semibold">Oma Opa Cakery UMS</h3>
+          <p>Nilagraha, Gonilan, Kec. Kartasura, Kabupaten Sukoharjo, Jawa Tengah 57169</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="tab-content hidden" id="jatim">
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 px-8">
+
+      <div class="bg-white rounded-lg overflow-hidden shadow">
+        <div class="w-full h-48">
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1978.7313127828454!2d112.6205051!3d-7.3018073!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fd00527b28a1%3A0x7db099a7ac037a85!2sOma%20Opa%20Cakery%20Menganti!5e0!3m2!1sid!2sid!4v1748690866260!5m2!1sid!2sid" 
+            width="100%" 
+            height="100%" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+        <div class="p-4 text-sm text-gray-700">
+          <h3 class="font-semibold">Oma Opa Cakery Menganti</h3>
+          <p>Jl. Raya Menganti 01 No.552, Laban Wetan, Laban, Kec. Menganti, Kabupaten Gresik, Jawa Timur 61174</p>
+        </div>
+      </div>
+      <div class="bg-white rounded-lg overflow-hidden shadow">
+        <div class="w-full h-48">
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.143099035184!2d112.7374591!3d-7.337822099999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fb4897d92c43%3A0xd4e911b8caea577f!2sOma%20Opa%20Cakery%20-%20Siwalankerto!5e0!3m2!1sid!2sid!4v1748691170635!5m2!1sid!2sid" 
+            width="100%" 
+            height="100%" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+        <div class="p-4 text-sm text-gray-700">
+          <h3 class="font-semibold">Oma Opa Cakery Siwalankerto</h3>
+          <p>Jl. Siwalankerto No.141, Siwalankerto, Kec. Wonocolo, Surabaya, Jawa Timur 60236</p>
+        </div>
+      </div>
+      <div class="bg-white rounded-lg overflow-hidden shadow">
+        <div class="w-full h-48">
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.943649197042!2d112.78020889999999!3d-7.247254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7f96e1784bcb7%3A0x1999cfd8e23fd784!2sOma%20Opa%20Bakery%20Lebak%20Sari!5e0!3m2!1sid!2sid!4v1748691305376!5m2!1sid!2sid" 
+            width="100%" 
+            height="100%" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+        <div class="p-4 text-sm text-gray-700">
+          <h3 class="font-semibold">Oma Opa Cakery Lebak Sari</h3>
+          <p>Jl. Lb. Sari No.40-41, Gading, Kec. Tambaksari, Surabaya, Jawa Timur 60134</p>
+        </div>
+      </div>
+      <div class="bg-white rounded-lg overflow-hidden shadow">
+        <div class="w-full h-48">
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1012949.769542761!2d112.3578059!3d-7.372379!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fd1b2f6de911%3A0x409b4b5a2bae72e8!2soma%20opa%20cakery%20Driyorejo!5e0!3m2!1sid!2sid!4v1748691445184!5m2!1sid!2sid" 
+            width="100%" 
+            height="100%" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+        <div class="p-4 text-sm text-gray-700">
+          <h3 class="font-semibold">Oma Opa Cakery Driyorejo</h3>
+          <p>Jl. Raya Batu Mulia, Mulung, Kec. Driyorejo, Kabupaten Gresik, Jawa Timur 61177</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="tab-content hidden" id="jogja">
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 px-8">
+
+      <div class="bg-white rounded-lg overflow-hidden shadow">
+        <div class="w-full h-48">
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.146793718476!2d110.41463669999999!3d-7.7742548000000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a593b0fa0c68d%3A0xed9907b7d2736d8f!2sOma%20Opa%20Babarsari!5e0!3m2!1sen!2sid!4v1748692050849!5m2!1sen!2sid" 
+            width="100%" 
+            height="100%" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+        <div class="p-4 text-sm text-gray-700">
+          <h3 class="font-semibold">Oma Opa Cakery Babarsari</h3>
+          <p>Tambakbayan, Komp PJKA Jl. Babarsari No.6, RT.014/RW.004, Depok, Sleman Regency, Special Region of Yogyakarta 55281</p>
+        </div>
+      </div>
+      <div class="bg-white rounded-lg overflow-hidden shadow">
+        <div class="w-full h-48">
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.943203070114!2d110.36888549999999!3d-7.7958384999999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a575a3c151e2d%3A0xb912066674ca1ad2!2sOma%20Opa%20Cakery%20Malioboro%20%7C%20Oleh%20-%20Oleh%20Jogja!5e0!3m2!1sen!2sid!4v1748692146058!5m2!1sen!2sid" 
+            width="100%" 
+            height="100%" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+        <div class="p-4 text-sm text-gray-700">
+          <h3 class="font-semibold">Oma Opa Cakery Malioboro</h3>
+          <p>Mataram St No.11, Suryatmajan, Danurejan, Yogyakarta City, Special Region of Yogyakarta 55213</p>
+        </div>
+      </div>
+      <div class="bg-white rounded-lg overflow-hidden shadow">
+        <div class="w-full h-48">
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.0608537185017!2d110.40125599999999!3d-7.783372999999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a592cbf008579%3A0x4a9ba4dec8e6860f!2sOma%20Opa%20Cakery!5e0!3m2!1sid!2sid!4v1748692247422!5m2!1sid!2sid" 
+            width="100%" 
+            height="100%" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+        <div class="p-4 text-sm text-gray-700">
+          <h3 class="font-semibold">Oma Opa Cakery Ambarukmo</h3>
+          <p>Jl. Laksda Adisucipto No.111, Ambarukmo, Caturtunggal, Kec. Depok, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55281</p>
+        </div>
+      </div>
+      <div class="bg-white rounded-lg overflow-hidden shadow">
+        <div class="w-full h-48">
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d126485.04716141324!2d110.3201858!3d-7.826004!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a573fcfc26301%3A0xbf2d97cf63160a47!2zT21hIE9wYSBHaXdhbmdhbijqpqnqprbqpo_qp4DqprHqprjqpq7qprrqppLqprbqpq7qppTqpqTqp4Ap!5e0!3m2!1sid!2sid!4v1748692379736!5m2!1sid!2sid" 
+            width="100%" 
+            height="100%" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+        <div class="p-4 text-sm text-gray-700">
+          <h3 class="font-semibold">Oma Opa Cakery Giwangan</h3>
+          <p>Jl. Imogiri Tim. No.111, Giwangan, Kec. Umbulharjo, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55163</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <footer class="bg-[#7b4a22] text-white px-6 pt-10 pb-6">
+  <div class="max-w-7xl mx-auto">
+    <div class="grid grid-cols-1 md:grid-cols-5 gap-4">
+      <div class="md:col-span-1 flex justify-center md:justify-start pl-10">
+        <img src="../Assets/icon/logo.jpeg" alt="Logo Oma Opa" class="w-24 h-auto object-contain" />
+      </div>
+      <div class="md:col-span-4 text-sm text-justify max-w-4xl pl-96">
+        <p>
+          OMA OPA CAKERY menghadirkan kelezatan kue rumahan dengan resep turun-temurun dari Oma dan Opa. Kami percaya bahwa setiap gigitan membawa kehangatan, nostalgia, dan rasa cinta.
+        </p>
+        <br>
+        <div class="flex justify-start mt-2 gap-3">
+          <p class="text-sm font-medium">Sosial Media & Marketplace:</p>
+          <a href="https://api.whatsapp.com/send?phone=6281223860200" target="_blank">
+            <img src="../Assets/icon/footer 1.png" alt="WA" class="w-6 h-6" />
+          </a>
+          <a href="https://instagram.com/omaopa_cakery" target="_blank">
+            <img src="../Assets/icon/footer 2.png" alt="IG" class="w-6 h-6" />
+          </a>
+          <a href="https://www.tiktok.com/@omaopa_cakery?_t=ZS-8wijPa0jlMV&_r=1" target="_blank">
+            <img src="../Assets/icon/footer 3.png" alt="TikTok" class="w-6 h-6" />
+          </a>
+          <a href="https://gofood.link/a/JvrFqbQ" target="_blank">
+            <img src="../Assets/icon/footer 4.png" alt="Gojek" class="w-6 h-6" />
+          </a>
+          <a href="https://shopee.co.id/philipsuryadi" target="_blank">
+            <img src="../Assets/icon/footer 5.png" alt="Shopee" class="w-6 h-6" />
+          </a>
+          <a href="https://www.tokopedia.com/omaopa" target="_blank">
+            <img src="../Assets/icon/footer 6.png" alt="Tokopedia" class="w-6 h-6" />
+          </a>
+        </div>
+      </div>
+    </div>
+    <hr class="border-t border-white opacity-50 my-6">
+    <div class="flex flex-col md:flex-row md:justify-between text-sm text-center md:text-left gap-3">
+      <div class="flex justify-center md:justify-start gap-6">
+        <a href="../index.html" class="hover:underline">Home</a>
+        <a href="../pages/tentang-kami.html" class="hover:underline">Tentang Kami</a>
+        <a href="../pages/produk.html" class="hover:underline">Produk</a>
+        <a href="../pages/blog.html" class="hover:underline">Blog</a>
+        <a href="../pages/kontak.html" class="hover:underline">Contact</a>
+      </div>
+      <div class="text-xs text-gray-200">
+        © 2025 omaopa cakery. All Rights Reserved.
+      </div>
+    </div>
+  </div>
+</footer>
+<script src="../script.js"></script>
+</body>
+</html>

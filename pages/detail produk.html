@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OMA OPA CAKERY</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Playfair+Display&display=swap" rel="stylesheet">
+  <link rel="icon" href="Assets/icon/logo 2.png" type="image/png">
+    <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Open Sans', 'sans-serif'],
+            heading: ['Playfair Display', 'serif'],
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="font-sans bg-white text-gray-800">
+
+  <header class="bg-[#6F4525] text-white fixed top-0 left-0 w-full z-50">
+    <div class="max-w-7xl mx-auto flex justify-between items-center p-4">
+      <img src="../Assets/icon/logo.jpeg" alt="Logo" class="h-10">
+      <nav class="space-x-6 hidden md:block">
+        <a href="../index.html" class="hover:text-yellow-300">Home</a>
+        <a href="../pages/tentang-kami.html" class="hover:text-yellow-300">Tentang Kami</a>
+        <a href="../pages/produk.html" class="hover:text-yellow-300">Produk</a>
+        <a href="../pages/blog.html" class="hover:text-yellow-300">Blog</a>
+        <a href="../pages/kontak.html" class="hover:text-yellow-300">Kontak</a>
+      </nav>
+      <a href="../pages/kontak.html" class="bg-[#DDCFAB] text-[#333237] px-4 py-2 rounded hover:bg-yellow-200">Hubungi Kami</a>
+    </div>
+  </header>
+
+<div class="max-w-6xl mx-auto px-6 py-10">
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
+    <div>
+      <img id="detail-gambar" class="w-full rounded-lg shadow" />
+    </div>
+
+    <div>
+      <h1 id="detail-nama" class="text-2xl font-heading font-bold mb-2 text-gray-800"></h1>
+      <p id="detail-harga" class="text-xl text-amber-700 font-semibold mb-4"></p>
+      <p class="text-gray-700 font-medium mb-2">Tersedia di :</p>
+      <div class="flex items-center gap-4 mb-6" id="marketplace-links">
+      </div>
+      <p id="detail-deskripsi" class="text-gray-600 leading-relaxed"></p>
+    </div>
+  </div>
+</div>
+
+  <footer class="bg-[#7b4a22] text-white px-6 pt-10 pb-6">
+  <div class="max-w-7xl mx-auto">
+    <div class="grid grid-cols-1 md:grid-cols-5 gap-4">
+      <div class="md:col-span-1 flex justify-center md:justify-start pl-10">
+        <img src="../Assets/icon/logo.jpeg" alt="Logo Oma Opa" class="w-24 h-auto object-contain" />
+      </div>
+      <div class="md:col-span-4 text-sm text-justify max-w-4xl pl-96">
+        <p>
+          OMA OPA CAKERY menghadirkan kelezatan kue rumahan dengan resep turun-temurun dari Oma dan Opa. Kami percaya bahwa setiap gigitan membawa kehangatan, nostalgia, dan rasa cinta.
+        </p>
+        <br>
+        <div class="flex justify-start mt-2 gap-3">
+          <p class="text-sm font-medium">Sosial Media & Marketplace:</p>
+          <a href="https://api.whatsapp.com/send?phone=6281223860200" target="_blank">
+            <img src="../Assets/icon/footer 1.png" alt="WA" class="w-6 h-6" />
+          </a>
+          <a href="https://instagram.com/omaopa_cakery" target="_blank">
+            <img src="../Assets/icon/footer 2.png" alt="IG" class="w-6 h-6" />
+          </a>
+          <a href="https://www.tiktok.com/@omaopa_cakery?_t=ZS-8wijPa0jlMV&_r=1" target="_blank">
+            <img src="../Assets/icon/footer 3.png" alt="TikTok" class="w-6 h-6" />
+          </a>
+          <a href="https://gofood.link/a/JvrFqbQ" target="_blank">
+            <img src="../Assets/icon/footer 4.png" alt="Gojek" class="w-6 h-6" />
+          </a>
+          <a href="https://shopee.co.id/philipsuryadi" target="_blank">
+            <img src="../Assets/icon/footer 5.png" alt="Shopee" class="w-6 h-6" />
+          </a>
+          <a href="https://www.tokopedia.com/omaopa" target="_blank">
+            <img src="../Assets/icon/footer 6.png" alt="Tokopedia" class="w-6 h-6" />
+          </a>
+        </div>
+      </div>
+    </div>
+    <hr class="border-t border-white opacity-50 my-6">
+    <div class="flex flex-col md:flex-row md:justify-between text-sm text-center md:text-left gap-3">
+      <div class="flex justify-center md:justify-start gap-6">
+        <a href="../index.html" class="hover:underline">Home</a>
+        <a href="../pages/tentang-kami.html" class="hover:underline">Tentang Kami</a>
+        <a href="../pages/produk.html" class="hover:underline">Produk</a>
+        <a href="../pages/blog.html" class="hover:underline">Blog</a>
+        <a href="../pages/kontak.html" class="hover:underline">Contact</a>
+      </div>
+      <div class="text-xs text-gray-200">
+        © 2025 omaopa cakery. All Rights Reserved.
+      </div>
+    </div>
+  </div>
+</footer>
+<script src="../detail.js"></script>
+</body>
+</html>

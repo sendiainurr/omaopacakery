@@ -1,0 +1,1224 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OMA OPA CAKERY</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Playfair+Display&display=swap" rel="stylesheet">
+  <link rel="icon" href="Assets/icon/logo 2.png" type="image/png">
+    <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Open Sans', 'sans-serif'],
+            heading: ['Playfair Display', 'serif'],
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="font-sans bg-white text-[#333237]">
+
+  <header class="bg-[#6F4525] text-white fixed top-0 left-0 w-full z-50">
+    <div class="max-w-7xl mx-auto flex justify-between items-center p-4">
+      <img src="Assets/icon/logo.jpeg" alt="Logo" class="h-10">
+      <nav class="space-x-6 hidden md:block">
+        <a href="index.html" class="hover:text-yellow-300">Home</a>
+        <a href="pages/tentang-kami.html" class="hover:text-yellow-300">Tentang Kami</a>
+        <a href="pages/produk.html" class="hover:text-yellow-300">Produk</a>
+        <a href="pages/blog.html" class="hover:text-yellow-300">Blog</a>
+        <a href="pages/kontak.html" class="hover:text-yellow-300">Kontak</a>
+      </nav>
+      <a href="pages/kontak.html" class="bg-[#DDCFAB] text-[#333237] px-4 py-2 rounded hover:bg-yellow-200">Hubungi Kami</a>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="relative">
+    <img src="Assets/image/Header - Section.png" alt="Hero" class="w-full h-[550px] object-cover brightness-75">
+    <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white">
+      <h1 class="text-4xl font-heading font-bold mb-4">OMA OPA CAKERY</h1>
+      <p class="max-w-xl mx-auto mb-6">Selamat datang di omaopa cakery! Nikmati berbagai pilihan bolu keju yang fresh dan cocok di lidah Anda, dibuat setiap hari dengan bahan berkualitas.</p>
+      <div class="space-x-4">
+        <a href="pages/tentang-kami.html" class="bg-white text-[#311E17] px-4 py-2 rounded shadow hover:bg-[#EDE7D4]">Tentang omaopa</a>
+        <a href="pages/produk.html" class="bg-[#9B6F41] text-[#FFFFFF] px-4 py-2 rounded shadow hover:bg-yellow-300">Pesan Sekarang</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- tagline -->
+  <section class="flex justify-center py-12 px-4">
+    <div class="relative w-full max-w-5xl h-[300px] rounded-xl overflow-hidden shadow-lg">
+      <img src="Assets/image/tagline.png" alt="Bolu Keju" class="absolute inset-0 w-full h-full object-cover brightness-75">
+      <div class="absolute inset-0 flex flex-col justify-center items-center text-white text-center px-4">
+        <h2 class="text-2xl md:text-3xl font-heading font-semibold mb-2 drop-shadow-md">Bolu Keju Super Lembut<br>Cinta dari Oma Opa</h2>
+      </div>
+    </div>
+  </section>
+
+  <!-- Keunggulan-->
+  <section class="px-4 py-12 max-w-6xl mx-auto">
+    <h2 class="text-2xl font-heading font-semibold mb-8 text-gray-800">Keunggulan Oma Opa</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 px-20 md:px-20">
+ 
+      <div class="bg-[#DDCFAB] p-6 rounded-lg shadow-sm">
+        <h3 class="text-lg font-heading font-semibold mb-2">Pilihan Yang Beragam</h3>
+        <p class="text-sm text-gray-700">Dari roti manis, kue cantik, hingga pastry gurih, di omaopa ada banyak pilihan yang cocok untuk segala selera dan momen spesial anda.</p>
+      </div>
+ 
+      <div class="bg-[#DDCFAB] p-6 rounded-lg shadow-sm">
+        <h3 class="text-lg font-heading font-semibold mb-2">Rasa Yang Selalu Terjaga</h3>
+        <p class="text-sm text-gray-700">Setiap produk kami buat dengan bahan-bahan berkualitas dan resep yang sudah terbukti, jadi anda tidak perlu khawatir soal rasa. Pastinya cocok dan memuaskan di setiap gigitan!</p>
+      </div>
+  
+      <div class="bg-[#DDCFAB] p-6 rounded-lg shadow-sm">
+        <h3 class="text-lg font-heading font-semibold mb-2">Selalu Fresh, Selalu Homemade</h3>
+        <p class="text-sm text-gray-700">Semua yang kami buat dipanggang setiap hari, sehingga anda bisa menikmati roti dan kue yang baru dan lembut setiap saat.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Masalah yang Bisa Diatasi -->
+  <section class="px-4 py-12 max-w-6xl mx-auto">
+    <h2 class="text-2xl font-heading font-semibold mb-8 text-[#333237]">Masalah yang Bisa Diatasi</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+   
+      <div class="bg-[#F8F5EE] border border-[#9B6F41] rounded-lg p-6">
+        <h3 class="font-heading font-semibold mb-2">Kebutuhan camilan sehat & rumahan</h3>
+        <p class="text-sm text-gray-700">Bolu OmaOpa bisa jadi solusi bagi yang ingin camilan dengan rasa rumahan dan bahan yang lebih natural dibanding snack instan.</p>
+      </div>
+   
+      <div class="bg-[#F8F5EE] border border-[#9B6F41] rounded-lg p-6">
+        <h3 class="font-heading font-semibold mb-2">Butuh Ide Kado Manis yang Berkesan</h3>
+        <p class="text-sm text-gray-700">Dengan kemasan rapi dan rasa premium, bolu OmaOpa jadi pilihan tepat untuk bingkisan spesial dan hampers.</p>
+      </div>
+  
+      <div class="bg-[#F8F5EE] border border-[#9B6F41] rounded-lg p-6">
+        <h3 class="font-heading font-semibold mb-2">Bosan dengan Snack Itu-Itu Saja</h3>
+        <p class="text-sm text-gray-700">Nikmati bolu lembut dengan varian rasa seperti keju, coklat, hingga matcha – dijamin bikin harimu lebih ceria.</p>
+      </div>
+  
+      <div class="bg-[#F8F5EE] border border-[#9B6F41] rounded-lg p-6">
+        <h3 class="font-heading font-semibold mb-2">Lagi Badmood & Butuh Moodbooster Manis</h3>
+        <p class="text-sm text-gray-700">Hari yang berat butuh sentuhan lembut. Bolu OmaOpa dengan rasa manis dan tekstur lembut bisa jadi pengangkat suasana hati.</p>
+      </div>
+   
+      <div class="bg-[#F8F5EE] border border-[#9B6F41] rounded-lg p-6">
+        <h3 class="font-heading font-semibold mb-2">Butuh Suguhan Praktis untuk Acara Kantor & Arisan</h3>
+        <p class="text-sm text-gray-700">Bolu OmaOpa cocok jadi hantaran manis untuk segala suasana – praktis, lezat, dan selalu disukai semua kalangan.</p>
+      </div>
+ 
+      <div class="bg-[#F8F5EE] border border-[#9B6F41] rounded-lg p-6">
+        <h3 class="font-heading font-semibold mb-2">Lapar Tapi Nggak Mau Makan Berat</h3>
+        <p class="text-sm text-gray-700">Bolu lembut OmaOpa cocok buat isi perut tanpa bikin begah. Pas untuk sarapan ringan atau teman kerja di sore hari.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Kategori Produk -->
+  <section class="px-10 py-16 max-w-7xl mx-auto">
+    <h2 class="text-2xl font-heading font-semibold mb-8 text-gray-800">Kategori Produk</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      
+      <div class="relative rounded-xl overflow-hidden shadow-lg group">
+        <img src="Assets/image/kategori 1.png" alt="Mini Ogura" class="w-full h-60 object-cover group-hover:scale-105 transition-transform duration-300">
+        <div class="absolute inset-0 bg-black bg-opacity-30 flex flex-col items-center justify-center text-white text-xl font-semibold">
+          Mini Ogura
+          <a href="pages/produk.html" class="mt-3 bg-[#e9dbb2] text-gray-800 px-4 py-1 rounded-full text-sm hover:bg-[#6F4525] transition">
+            lihat
+          </a>
+        </div>
+      </div>
+
+      <div class="relative rounded-xl overflow-hidden shadow-lg group">
+        <img src="Assets/image/kategori 2.png" alt="Ogura" class="w-full h-60 object-cover group-hover:scale-105 transition-transform duration-300">
+        <div class="absolute inset-0 bg-black bg-opacity-30 flex flex-col items-center justify-center text-white text-xl font-semibold">
+          Ogura
+          <a href="pages/produk.html" class="mt-3 bg-[#e9dbb2] text-gray-800 px-4 py-1 rounded-full text-sm hover:bg-[#6F4525] transition">
+            lihat
+          </a>
+        </div>
+      </div>
+
+      <div class="relative rounded-xl overflow-hidden shadow-lg group">
+        <img src="Assets/image/kategori 3.png" alt="Malmil" class="w-full h-60 object-cover group-hover:scale-105 transition-transform duration-300">
+        <div class="absolute inset-0 bg-black bg-opacity-30 flex flex-col items-center justify-center text-white text-xl font-semibold">
+          Malmil
+          <a href="pages/produk.html" class="mt-3 bg-[#e9dbb2] text-gray-800 px-4 py-1 rounded-full text-sm hover:bg-[#6F4525] transition">
+            lihat
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- produk -->
+  <section class="bg-white py-16">
+  <div class="max-w-7xl mx-auto px-6">
+    <h2 class="text-center text-xl font-heading font-semibold text-gray-800 mb-1">PRODUK</h2>
+    <p class="text-center text-sm text-gray-600 mb-10">Temukan ragam bolu lembut buatan Oma Opa Cakery</p>
+
+  <div class="flex text-left gap-4 mb-10">
+    <button class="filter-btn text-gray-700 px-4 py-2 rounded-full font-medium text-sm hover:bg-[#6F4525]" data-filter="all">ALL</button>
+    <button class="filter-btn text-gray-700 px-4 py-2 rounded-full font-medium text-sm hover:bg-[#6F4525]" data-filter="mini ogura">MINI OGURA</button>
+    <button class="filter-btn text-gray-700 px-4 py-2 rounded-full font-medium text-sm hover:bg-[#6F4525]" data-filter="ogura">OGURA</button>
+    <button class="filter-btn text-gray-700 px-4 py-2 rounded-full font-medium text-sm hover:bg-[#6F4525]" data-filter="malmil">MALMIL</button>
+  </div>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+      <div class="bg-white rounded-xl overflow-hidden shadow-sm" data-kategori="ogura">
+        <img src="../Assets/image/produk 1.png" alt="Ogura Cheese Topping Half Mix" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h3 class="text-sm font-heading font-medium text-gray-800">Ogura Cheese Topping Half Mix</h3>
+          <p class="text-sm text-gray-600">Rp. 56.000,00</p>
+          <a href="pages/detail produk.html?id=1" class="mt-2 border border-[#C9AF7B] text-sm px-4 py-1 rounded-full hover:bg-gray-100 inline-block">beli</a>
+        </div>
+      </div>
+      <div class="bg-white rounded-xl overflow-hidden shadow-sm" data-kategori="mini ogura">
+        <img src="Assets/image/produk 2.png" alt="Ogura Choco Topping Half Mix" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h3 class="text-sm font-heading font-medium text-gray-800">Ogura Choco Topping Half Mix</h3>
+          <p class="text-sm text-gray-600">Rp. 56.000,00</p>
+          <a href="pages/detail produk.html?id=2" class="mt-2 border border-[#C9AF7B] text-sm px-4 py-1 rounded-full hover:bg-gray-100 inline-block">beli</a>
+        </div>
+      </div>
+      <div class="bg-white rounded-xl overflow-hidden shadow-sm" data-kategori="malmil">
+        <img src="Assets/image/produk 3.png" alt="Ogura Choco Topping Half Mix" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h3 class="text-sm font-heading font-medium text-gray-800">Ogura Choco Topping Half Mix</h3>
+          <p class="text-sm text-gray-600">Rp. 56.000,00</p>
+          <a href="pages/detail produk.html?id=3" class="mt-2 border border-[#C9AF7B] text-sm px-4 py-1 rounded-full hover:bg-gray-100 inline-block">beli</a>
+        </div>
+      </div>
+      <div class="bg-white rounded-xl overflow-hidden shadow-sm" data-kategori="mini ogura">
+        <img src="Assets/image/produk 4.png" alt="Ogura Choco Topping Half Mix" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h3 class="text-sm font-heading font-medium text-gray-800">Ogura Choco Topping Half Mix</h3>
+          <p class="text-sm text-gray-600">Rp. 56.000,00</p>
+          <a href="pages/detail produk.html?id=4" class="mt-2 border border-[#C9AF7B] text-sm px-4 py-1 rounded-full hover:bg-gray-100 inline-block">beli</a>
+        </div>
+      </div>
+      <div class="bg-white rounded-xl overflow-hidden shadow-sm" data-kategori="ogura">
+        <img src="Assets/image/produk 5.png" alt="Ogura Choco Topping Half Mix" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h3 class="text-sm font-heading font-medium text-gray-800">Ogura Choco Topping Half Mix</h3>
+          <p class="text-sm text-gray-600">Rp. 56.000,00</p>
+          <a href="pages/detail produk.html?id=5" class="mt-2 border border-[#C9AF7B] text-sm px-4 py-1 rounded-full hover:bg-gray-100 inline-block">beli</a>
+        </div>
+      </div>
+      <div class="bg-white rounded-xl overflow-hidden shadow-sm" data-kategori="ogura">
+        <img src="Assets/image/produk 6.png" alt="Ogura Choco Topping Half Mix" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h3 class="text-sm font-heading font-medium text-gray-800">Ogura Choco Topping Half Mix</h3>
+          <p class="text-sm text-gray-600">Rp. 56.000,00</p>
+          <a href="pages/detail produk.html?id=6" class="mt-2 border border-[#C9AF7B] text-sm px-4 py-1 rounded-full hover:bg-gray-100 inline-block">beli</a>
+        </div>
+      </div>
+      <div class="bg-white rounded-xl overflow-hidden shadow-sm" data-kategori="malmil">
+        <img src="Assets/image/produk 7.png" alt="Ogura Choco Topping Half Mix" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h3 class="text-sm font-heading font-medium text-gray-800">Ogura Choco Topping Half Mix</h3>
+          <p class="text-sm text-gray-600">Rp. 56.000,00</p>
+          <a href="pages/detail produk.html?id=7" class="mt-2 border border-[#C9AF7B] text-sm px-4 py-1 rounded-full hover:bg-gray-100 inline-block">beli</a>
+        </div>
+      </div>
+      <div class="bg-white rounded-xl overflow-hidden shadow-sm" data-kategori="ogura">
+        <img src="Assets/image/produk 8.png" alt="Mini Ogura 3 Rasa" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h3 class="text-sm font-heading font-medium text-gray-800">Mini Ogura 3 Rasa</h3>
+          <p class="text-sm text-gray-600">Rp. 37.000,00</p>
+          <a href="pages/detail produk.html?id=8" class="mt-2 border border-[#C9AF7B] text-sm px-4 py-1 rounded-full hover:bg-gray-100 inline-block">beli</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="flex justify-center mt-10">
+      <a href="pages/produk.html" class="bg-[#754F33] text-white px-6 py-2 rounded-full text-sm hover:bg-[#53392b] transition">
+        View More
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- promo -->
+  <section class="py-10 text-center">
+    <h2 class="text-2xl font-heading font-semibold mb-2">PROMO</h2>
+    <p class="text-gray-600 mb-6">Rayakan harimu dengan promo manis dari Oma Opa</p>
+
+    <div class="relative max-w-5xl mx-auto overflow-hidden">
+      <div id="slider" class="flex transition-transform duration-500 ease-in-out">
+     
+        <div class="flex-shrink-0 w-full grid grid-cols-1 md:grid-cols-3 gap-4 px-4">
+          <img src="Assets/image/promo 1.png" alt="Promo 1" class="w-full rounded shadow">
+          <img src="Assets/image/promo 2.png" alt="Promo 2" class="w-full rounded shadow">
+          <img src="Assets/image/promo 3.png" alt="Promo 3" class="w-full rounded shadow">
+        </div>
+       
+        <div class="flex-shrink-0 w-full grid grid-cols-1 md:grid-cols-3 gap-4 px-4">
+          <img src="Assets/image/promo 2.png" alt="Promo 4" class="w-full rounded shadow">
+          <img src="Assets/image/promo 1.png" alt="Promo 5" class="w-full rounded shadow">
+          <img src="Assets/image/promo 3.png" alt="Promo 6" class="w-full rounded shadow">
+        </div>
+  
+        <div class="flex-shrink-0 w-full grid grid-cols-1 md:grid-cols-3 gap-4 px-4">
+          <img src="Assets/image/promo 1.png" alt="Promo 7" class="w-full rounded shadow">
+          <img src="Assets/image/promo 3.png" alt="Promo 8" class="w-full rounded shadow">
+          <img src="Assets/image/promo 2.png" alt="Promo 9" class="w-full rounded shadow">
+        </div>
+      </div>
+    </div>
+
+    <div id="indicators" class="flex justify-center mt-6 space-x-3">
+      <button data-index="0" onclick="goToSlide(0)" class="indicator w-4 h-4 rounded-full bg-gray-300"></button>
+      <button data-index="1" onclick="goToSlide(1)" class="indicator w-4 h-4 rounded-full bg-gray-300"></button>
+      <button data-index="2" onclick="goToSlide(2)" class="indicator w-4 h-4 rounded-full bg-gray-300"></button>
+    </div>
+  </section>
+
+  <!-- how it work -->
+<section class="py-16 bg-white">
+  <div class="max-w-4xl mx-auto text-center px-4">
+    <h2 class="text-xl font-heading font-semibold text-gray-800 tracking-wide mb-2">HOW IT WORKS</h2>
+    <p class="text-gray-600 mb-12">Beli bolu favoritmu semudah 1–2–3</p>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+      <div>
+        <div class="text-5xl font-bold text-yellow-500 mb-4">1</div>
+        <h3 class="text-lg font-semibold mb-2">Lihat</h3>
+        <p class="text-gray-600">
+          Telusuri berbagai varian bolu OmaOpa yang menggoda. Mulai dari rasa klasik hingga favorit keluarga – semua tersedia untuk kamu pilih.
+        </p>
+      </div>
+
+      <div>
+        <div class="text-5xl font-bold text-yellow-500 mb-4">2</div>
+        <h3 class="text-lg font-semibold mb-2">Pesan</h3>
+        <p class="text-gray-600">
+          Klik dan pesan dengan mudah. Bisa melalui chat, aplikasi online, atau langsung ke outlet terdekat.
+        </p>
+      </div>
+
+      <div>
+        <div class="text-5xl font-bold text-yellow-500 mb-4">3</div>
+        <h3 class="text-lg font-semibold mb-2">Nikmati</h3>
+        <p class="text-gray-600">
+          Santap bolu lembut penuh cinta. Temani harimu, perbaiki mood-mu, dan bagikan kehangatannya bersama orang tercinta.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CARA PESAN -->
+<section class="py-16 bg-white">
+  <div class="max-w-5xl mx-auto text-center px-4">
+    <h2 class="text-xl font-heading font-semibold text-gray-800 tracking-wide mb-2">CARA PESAN</h2>
+    <p class="text-gray-600 mb-12">
+      Nikmati bolu favoritmu dengan cara paling nyaman! Pilih metode pemesanan yang paling cocok buat kamu praktis, cepat, dan fleksibel.
+    </p>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <a href="https://www.google.com/maps?q=outlet+omaopa" target="_blank" class="block bg-yellow-300 hover:bg-yellow-400 transition-all rounded-xl p-6 text-center shadow-md">
+        <img src="Assets/icon/logo 3.png" alt="Outlet" class="mx-auto mb-4 w-12 h-12">
+        <h3 class="font-semibold text-lg text-gray-800 mb-1">Langsung ke outlet terdekat</h3>
+        <p class="text-gray-700 text-sm">Datang, pilih dan pesan varian favoritmu</p>
+      </a>
+
+      <a href="https://wa.me/6281234567890" target="_blank" class="block bg-yellow-300 hover:bg-yellow-400 transition-all rounded-xl p-6 text-center shadow-md">
+        <img src="Assets/icon/cara pesan.png" alt="WhatsApp" class="mx-auto mb-4 w-12 h-12">
+        <h3 class="font-semibold text-lg text-gray-800 mb-1">Via WhatsApp</h3>
+        <p class="text-gray-700 text-sm">Chat kami, pilih varian, dan bolu siap dikirim ke rumahmu</p>
+      </a>
+
+      <a href="https://gofood.link/omaopa" target="_blank" class="block bg-yellow-300 hover:bg-yellow-400 transition-all rounded-xl p-6 text-center shadow-md">
+        <img src="Assets/icon/cara pesan 2.png" alt="Marketplace" class="mx-auto mb-4 w-12 h-12">
+        <h3 class="font-semibold text-lg text-gray-800 mb-1">Via MarketPlace</h3>
+        <p class="text-gray-700 text-sm">Pesan Bolu OmaOpa lewat toko online favoritmu, kapan saja</p>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- tentang kami -->
+   <section class="py-16 px-4 md:px-20 lg:px-32">
+    <h2 class="text-center text-xl md:text-2xl font-heading font-semibold text-gray-800 mb-2">TENTANG KAMI</h2>
+    <p class="text-center text-sm text-gray-600 mb-10">Bolu rumahan, rasa yang tak lekang oleh waktu.</p>
+
+    <div class="flex flex-col md:flex-row items-center md:items-start gap-10">
+      <div class="md:w-1/2">
+        <h3 class="text-lg font-heading font-semibold mb-2">OMA OPA CAKERY</h3>
+        <p class="text-sm leading-relaxed mb-6">
+          Oma Opa Cakery adalah perusahaan yang bergerak di bidang Cakery, menjual bolu Ogura dan Malmil. 
+          Oma Opa Cakery adalah pelopor bolu lembut ogura dalam berbagai varian rasa serta tampilan yang menarik. 
+          Dengan produk andalannya Mini Ogura dan Malmil, Oma Opa Cakery telah melahirkan kategori baru dalam dunia Cake and Bakery.
+        </p>
+        <a href="pages/tentang-kami.html">
+          <button class="bg-[#EDE7D4] border border-[#DDCFAB] hover:bg-beige-300 text-gray-800 text-sm px-4 py-2 rounded-full shadow-md">
+            Lebih lengkap
+          </button>
+        </a>
+      </div>
+      <div class="md:w-1/2">
+        <img src="Assets/image/tentang kami.png" alt="Oma Opa Cakery" class="rounded-lg shadow-md w-full max-w-md mx-auto" />
+      </div>
+    </div>
+  </section>
+
+  <!-- why choose us -->
+   <section class="py-16 px-4 md:px-20 lg:px-32 bg-white">
+  <h2 class="text-center text-xl md:text-2xl font-heading font-semibold text-gray-800 mb-2">WHY CHOOSE US</h2>
+  <p class="text-center text-sm text-gray-600 mb-10">Kami percaya camilan enak tak harus rumit.</p>
+
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+    <div class="flex items-start gap-4">
+      <div class="bg-yellow-400 p-2 rounded-full">
+        <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+        </svg>
+      </div>
+      <div>
+        <h4 class="font-semibold text-base mb-1">Bolu Keju Super Lembut</h4>
+        <p class="text-sm text-gray-700">Tekstur lembut, fluffy, dan moist yang bikin ketagihan</p>
+      </div>
+    </div>
+
+    <div class="flex items-start gap-4">
+      <div class="bg-yellow-400 p-2 rounded-full">
+        <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+        </svg>
+      </div>
+      <div>
+        <h4 class="font-semibold text-base mb-1">Varian Rasa yang Beragam</h4>
+        <p class="text-sm text-gray-700">Menawarkan berbagai varian rasa seperti cokelat, keju, durian, dan matcha</p>
+      </div>
+    </div>
+
+    <div class="flex items-start gap-4">
+      <div class="bg-yellow-400 p-2 rounded-full">
+        <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+        </svg>
+      </div>
+      <div>
+        <h4 class="font-semibold text-base mb-1">Fresh Setiap Hari</h4>
+        <p class="text-sm text-gray-700">Dibuat dan dipanggang setiap hari untuk menjaga kesegaran.</p>
+      </div>
+    </div>
+
+    <div class="flex items-start gap-4">
+      <div class="bg-yellow-400 p-2 rounded-full">
+        <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+        </svg>
+      </div>
+      <div>
+        <h4 class="font-semibold text-base mb-1">Kemasan Menarik dan Praktis</h4>
+        <p class="text-sm text-gray-700">Desain kemasan yang cerah dan menarik, cocok sebagai oleh-oleh modern</p>
+      </div>
+    </div>
+
+    <div class="flex items-start gap-4">
+      <div class="bg-yellow-400 p-2 rounded-full">
+        <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+        </svg>
+      </div>
+      <div>
+        <h4 class="font-semibold text-base mb-1">Bahan Berkualitas</h4>
+        <p class="text-sm text-gray-700">Menggunakan keju asli dan bahan premium tanpa pengawet.</p>
+      </div>
+    </div>
+
+    <div class="flex items-start gap-4">
+      <div class="bg-yellow-400 p-2 rounded-full">
+        <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
+        </svg>
+      </div>
+      <div>
+        <h4 class="font-semibold text-base mb-1">Jaringan Outlet yang Luas</h4>
+        <p class="text-sm text-gray-700">Memudahkan pelanggan untuk mendapatkan produk Oma Opa Cakery.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Angka -->
+  <section class="text-center py-12">
+    <h2 class="text-xl font-heading font-semibold mb-2">OMA OPA Dalam Angka</h2>
+    <p class="text-gray-600 mb-8">Angka-angka yang mencerminkan rasa, kualitas, dan kepercayaan.</p>
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-4 px-4 max-w-6xl mx-auto">
+
+      <div class="border border-[#9B6F41] rounded-lg p-6">
+        <h3 class="text-2xl font-bold mb-2">7+</h3>
+        <p class="font-semibold">Tahun Pengalaman</p>
+        <p class="text-sm mt-2 text-gray-600">Hadir sejak 2017, konsisten menghadirkan kue lembut dan fresh setiap hari.</p>
+      </div>
+      <div class="border border-[#9B6F41] rounded-lg p-6">
+        <h3 class="text-2xl font-bold mb-2">20+</h3>
+        <p class="font-semibold">Cabang di Indonesia</p>
+        <p class="text-sm mt-2 text-gray-600">Tersebar di berbagai kota di Jawa Tengah, DIY, dan Jawa Timur.</p>
+      </div>
+      <div class="border border-[#9B6F41] rounded-lg p-6">
+        <h3 class="text-2xl font-bold mb-2">100K+</h3>
+        <p class="font-semibold">Kue Terjual Setiap Bulan</p>
+        <p class="text-sm mt-2 text-gray-600">Dipercaya oleh ribuan pelanggan untuk berbagai momen spesial.</p>
+      </div>
+      <div class="border border-[#9B6F41] rounded-lg p-6">
+        <h3 class="text-2xl font-bold mb-2">4</h3>
+        <p class="font-semibold">Varian Topping Favorit</p>
+        <p class="text-sm mt-2 text-gray-600">Tersedia dalam pilihan topping keju, cokelat, matcha, dan taro yang menggoda.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimoni -->
+<section class="py-12 bg-white text-center">
+  <h2 class="text-2xl font-heading font-bold mb-2">Testimoni</h2>
+  <p class="text-gray-600 mb-6">Dengar langsung dari pelanggan yang sudah merasakan pengalaman bersama kami.</p>
+
+  <div class="relative max-w-6xl mx-auto overflow-hidden">
+    <div id="testimonialSlider" class="flex transition-transform duration-500 ease-in-out">
+
+      <div class="flex-shrink-0 w-full grid grid-cols-1 md:grid-cols-2 gap-6 px-4">
+        <div class="bg-[#EAE2DC] p-6 rounded-lg shadow text-left">
+          <div class="flex mb-2 text-yellow-400 text-xl">
+            ★★★★★
+          </div>
+          <p class="text-gray-700 mb-4">
+            Setelah coba satu kali beli di booth dekat kantor, saya langsung jadi langganan. Cocok banget buat nemenin kerja sore hari. Rasanya ringan tapi tetap nagih. Favorit saya yang topping coklat.
+          </p>
+          <div class="flex items-center space-x-3">
+            <img src="Assets/icon/testimoni 1.png" alt="Andri W" class="w-10 h-10 rounded-full">
+            <span class="font-semibold">Andri W</span>
+          </div>
+        </div>
+
+        <div class="bg-[#EAE2DC] p-6 rounded-lg shadow text-left">
+          <div class="flex mb-2 text-yellow-400 text-xl">
+            ★★★★★
+          </div>
+          <p class="text-gray-700 mb-4">
+            Pertama kali liat kemasannya yang unik, saya langsung tertarik. Tapi ternyata isinya juga nggak kalah enak! Baunya moist dan varian rasanya menarik. Matchanya favorit saya, mantep pas banget.
+          </p>
+          <div class="flex items-center space-x-3">
+            <img src="Assets/icon/testimoni 2.png" alt="Rini Nur" class="w-10 h-10 rounded-full">
+            <span class="font-semibold">Rini Nur</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex-shrink-0 w-full grid grid-cols-1 md:grid-cols-2 gap-6 px-4">
+        <div class="bg-[#EAE2DC] p-6 rounded-lg shadow text-left">
+          <div class="flex mb-2 text-yellow-400 text-xl">★★★★★</div>
+          <p class="text-gray-700 mb-4">Kuenya lembut dan tidak terlalu manis, cocok banget buat anak-anak juga. Pelayanannya ramah dan cepat!</p>
+          <div class="flex items-center space-x-3">
+            <img src="Assets/icon/testimoni 3.png" alt="Dewi Lestari" class="w-10 h-10 rounded-full">
+            <span class="font-semibold">Dewi Lestari</span>
+          </div>
+        </div>
+
+        <div class="bg-[#EAE2DC] p-6 rounded-lg shadow text-left">
+          <div class="flex mb-2 text-yellow-400 text-xl">★★★★★</div>
+          <p class="text-gray-700 mb-4">Saya suka kemasannya yang rapi dan lucu, rasanya juga unik, beda dari yang lain. Recommended banget!</p>
+          <div class="flex items-center space-x-3">
+            <img src="Assets/icon/testimoni 4.png" alt="Budi Santoso" class="w-10 h-10 rounded-full">
+            <span class="font-semibold">Budi Santoso</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="testimonialIndicators" class="flex justify-center mt-6 space-x-3">
+    <button class="testimonial-indicator w-4 h-4 rounded-full bg-gray-800" onclick="goToTestimonialSlide(0)"></button>
+    <button class="testimonial-indicator w-4 h-4 rounded-full bg-gray-300" onclick="goToTestimonialSlide(1)"></button>
+  </div>
+</section>
+
+<!-- Portfolio -->
+<section class="py-12 bg-white text-center">
+  <h2 class="text-2xl font-heading font-bold mb-2">Portfolio</h2>
+  <p class="text-gray-600 mb-8">Beberapa karya dan sertifikasi yang mencerminkan komitmen kami pada kualitas dan kepercayaan</p>
+
+  <div class="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-8 items-center text-left">
+    
+    <div class="self-start">
+      <h3 class="text-xl font-heading font-semibold mb-4">Produk Kami Telah Mendapatkan Sertifikat Halal MUI</h3>
+      <p class="text-gray-700 leading-relaxed text-justify">
+        Setiap produk kami telah mendapatkan sertifikat halal resmi dari MUI, sehingga Anda dapat menikmati setiap sajian dengan kepercayaan penuh pada kualitas dan kehalalannya. Kami berkomitmen untuk memberikan yang terbaik, tidak hanya dari segi rasa, tetapi juga kualitas yang aman dan terpercaya.
+      </p>
+    </div>
+
+    <div class="relative w-fit mx-auto">
+      <div class="absolute top-2 left-6 w-full h-full bg-[#311E17] opacity-100"></div>
+      <img src="Assets/image/portfolio.jpg" alt="Sertifikat Halal"
+          class="relative left-8 z-10 w-[250px]">
+    </div>
+  </div>
+</section>
+
+<!-- Rekanan -->
+<section class="py-16 bg-white text-center">
+  <h2 class="text-2xl font-heading font-semibold mb-2">Rekanan</h2>
+  <p class="text-gray-600 mb-8">
+    Didukung oleh mitra terpercaya untuk menghadirkan kualitas terbaik di setiap bolu OmaOpa.
+  </p>
+
+  <div class="flex flex-col items-center space-y-6">
+    <div class="grid grid-cols-2 sm:grid-cols-10 gap-4 justify-center">
+      <img src="Assets/icon/rekan 1.png" class="w-16 h-16" alt="Icon 1">
+      <img src="Assets/icon/rekan 2.png" class="w-16 h-16" alt="Icon 2">
+      <img src="Assets/icon/rekan 3.png" class="w-16 h-16" alt="Icon 3">
+      <img src="Assets/icon/rekan 4.png" class="w-16 h-16" alt="Icon 4">
+      <img src="Assets/icon/rekan 5.png" class="w-16 h-16" alt="Icon 5">
+      <img src="Assets/icon/rekan 6.png" class="w-16 h-16" alt="Icon 6">
+      <img src="Assets/icon/rekan 7.png" class="w-16 h-16" alt="Icon 7">
+      <img src="Assets/icon/rekan 8.png" class="w-16 h-16" alt="Icon 8">
+      <img src="Assets/icon/rekan 9.png" class="w-16 h-16" alt="Icon 9">
+      <img src="Assets/icon/rekan 10.png" class="w-16 h-16" alt="Icon 10">
+    </div>
+
+    <div class="grid grid-cols-4 sm:grid-cols-8 gap-4 justify-center">
+      <img src="Assets/icon/rekan 1.png" class="w-16 h-16" alt="Icon 11">
+      <img src="Assets/icon/rekan 3.png" class="w-16 h-16" alt="Icon 12">
+      <img src="Assets/icon/rekan 4.png" class="w-16 h-16" alt="Icon 13">
+      <img src="Assets/icon/rekan 6.png" class="w-16 h-16" alt="Icon 14">
+      <img src="Assets/icon/rekan 7.png" class="w-16 h-16" alt="Icon 15">
+      <img src="Assets/icon/rekan 8.png" class="w-16 h-16" alt="Icon 16">
+      <img src="Assets/icon/rekan 9.png" class="w-16 h-16" alt="Icon 17">
+      <img src="Assets/icon/rekan 10.png" class="w-16 h-16" alt="Icon 18">
+    </div>
+  </div>
+</section>
+
+<!-- e-kataloq -->
+ <section class="bg-white py-12 px-4">
+  <div class="max-w-6xl mx-auto bg-white border rounded-2xl p-6 md:p-10 flex flex-col md:flex-row items-center justify-between gap-8">
+    
+    <div class="flex-1 text-left">
+      <h3 class="text-xl font-heading font-semibold mb-3">E – Katalog</h3>
+      <p class="text-gray-700 mb-2">Lihat semua varian dan harga Bolu OmaOpa dalam satu klik!</p>
+      <p class="text-gray-700 mb-2">Katalog ini memudahkan kamu memilih rasa favorit dan cek harga terbaru.</p>
+      <p class="text-gray-700 mb-6">Praktis, lengkap, bisa diakses kapan saja.</p>
+      <a href="Assets/image/katalog.jpg" class="inline-block bg-[#D9C9A5] hover:bg-[#c8b88f] text-[#333237] font-medium py-2 px-6 rounded-full transition">Download</a>
+    </div>
+
+    <div class="flex-1 max-h-[300px] overflow-y-auto rounded-lg shadow-inner">
+      <img src="Assets/image/katalog.jpg" alt="E-Katalog" class="w-full object-cover">
+    </div>
+  </div>
+</section>
+
+<!-- tim -->
+<section class="py-16 bg-white text-center">
+  <h2 class="text-2xl font-heading font-semibold mb-2">Tim Kami</h2>
+  <p class="text-gray-600 mb-12">
+    Di balik bolu hangat kami, ada tangan-tangan penuh cinta yang bekerja sepenuh hati.
+  </p>
+
+  <div class="max-w-6xl mx-auto grid grid-cols-2 sm:grid-cols-4 gap-8 px-4">
+
+    <div>
+      <img src="Assets/image/tim.png" alt="Wina" class="w-full rounded-2xl mb-4">
+      <h3 class="font-medium text-gray-800">Wina</h3>
+      <p class="text-sm text-gray-500">Kasir</p>
+    </div>
+
+    <div>
+      <img src="Assets/image/tim.png" alt="Rara" class="w-full rounded-2xl mb-4">
+      <h3 class="font-medium text-gray-800">Rara</h3>
+      <p class="text-sm text-gray-500">Staff Toko</p>
+    </div>
+
+    <div>
+      <img src="Assets/image/tim.png" alt="Tari" class="w-full rounded-2xl mb-4">
+      <h3 class="font-medium text-gray-800">Tari</h3>
+      <p class="text-sm text-gray-500">Customer Assistant</p>
+    </div>
+
+    <div>
+      <img src="Assets/image/tim.png" alt="Rina" class="w-full rounded-2xl mb-4">
+      <h3 class="font-medium text-gray-800">Rina</h3>
+      <p class="text-sm text-gray-500">Staff Toko</p>
+    </div>
+  </div>
+</section>
+
+<!-- lowongan -->
+<section class="py-16 bg-white text-center">
+  <h2 class="text-2xl font-heading font-semibold mb-2">Lowongan</h2>
+  <p class="text-gray-600 mb-12">Lihat posisi yang tersedia dan kirim lamaranmu sekarang.</p>
+  <div class="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-14">
+    <div class="bg-yellow-300 rounded-xl p-6 shadow flex flex-col items-center text-center">
+      <img src="Assets/icon/logo 2.png" alt="Logo" class="h-10 mb-4">
+      <h4 class="font-medium">We Are Hiring</h4>
+      <h3 class="text-lg font-bold mt-1">Kasir</h3>
+      <p class="mb-4 text-sm text-gray-800">Outlet Mulyosari, Jawa Timur</p>
+      <div class="text-left w-full">
+        <p class="font-semibold mb-1">Kualifikasi :</p>
+        <ul class="list-disc pl-5 text-sm text-gray-700 space-y-1 mb-6">
+          <li>Maksimal usia 30 tahun</li>
+          <li>Kerja Full Time</li>
+          <li>Tidak diperlukan pengalaman kerja untuk posisi ini</li>
+          <li>Pelamar harus memiliki KTP</li>
+          <li>Tanggal mulai kerja: 15 Juni 2024</li>
+        </ul>
+      </div>
+      <a href="https://api.whatsapp.com/send?phone=6281223860200" target="_blank" rel="noopener noreferrer"
+        class="bg-[#9B6F41] text-white text-sm px-4 py-2 rounded hover:bg-gray-800 inline-block">
+        Apply Now
+      </a>
+    </div>
+    <div class="bg-yellow-300 rounded-xl p-6 shadow flex flex-col items-center text-center">
+      <img src="Assets/icon/logo 2.png" alt="Logo" class="h-10 mb-4">
+      <h4 class="font-medium">We Are Hiring</h4>
+      <h3 class="text-lg font-bold mt-1">Kasir</h3>
+      <p class="mb-4 text-sm text-gray-800">Outlet Banyumanik, Semarang</p>
+      <div class="text-left w-full">
+        <p class="font-semibold mb-1">Kualifikasi :</p>
+        <ul class="list-disc pl-5 text-sm text-gray-700 space-y-1 mb-6">
+          <li>Perempuan maksimal usia 30 tahun</li>
+          <li>Pendidikan minimal SMA/SMK/sederajat</li>
+          <li>Pengalaman sebagai kasir/pramuniaga diutamakan</li>
+          <li>Mampu berkomunikasi dengan baik</li>
+          <li>Full Time, Part Time</li>
+        </ul>
+      </div>
+      <a href="https://api.whatsapp.com/send?phone=6281223860200" target="_blank" rel="noopener noreferrer"
+        class="bg-[#9B6F41] text-white text-sm px-4 py-2 rounded hover:bg-gray-800 inline-block">
+        Apply Now
+      </a>
+    </div>
+        <div class="bg-yellow-300 rounded-xl p-6 shadow flex flex-col items-center text-center">
+      <img src="Assets/icon/logo 2.png" alt="Logo" class="h-10 mb-4">
+      <h4 class="font-medium">We Are Hiring</h4>
+      <h3 class="text-lg font-bold mt-1">Kasir</h3>
+      <p class="mb-4 text-sm text-gray-800">Outlet Banyumanik, Semarang</p>
+      <div class="text-left w-full">
+        <p class="font-semibold mb-1">Kualifikasi :</p>
+        <ul class="list-disc pl-5 text-sm text-gray-700 space-y-1 mb-6">
+          <li>Perempuan maksimal usia 30 tahun</li>
+          <li>Pendidikan minimal SMA/SMK/sederajat</li>
+          <li>Pengalaman sebagai kasir/pramuniaga diutamakan</li>
+          <li>Mampu berkomunikasi dengan baik</li>
+          <li>Full Time, Part Time</li>
+        </ul>
+      </div>
+      <a href="https://api.whatsapp.com/send?phone=6281223860200" target="_blank" rel="noopener noreferrer"
+        class="bg-[#9B6F41] text-white text-sm px-4 py-2 rounded hover:bg-gray-800 inline-block">
+        Apply Now
+      </a>
+    </div>
+        <div class="bg-yellow-300 rounded-xl p-6 shadow flex flex-col items-center text-center">
+      <img src="Assets/icon/logo 2.png" alt="Logo" class="h-10 mb-4">
+      <h4 class="font-medium">We Are Hiring</h4>
+      <h3 class="text-lg font-bold mt-1">Kasir</h3>
+      <p class="mb-4 text-sm text-gray-800">Outlet Banyumanik, Semarang</p>
+      <div class="text-left w-full">
+        <p class="font-semibold mb-1">Kualifikasi :</p>
+        <ul class="list-disc pl-5 text-sm text-gray-700 space-y-1 mb-6">
+          <li>Perempuan maksimal usia 30 tahun</li>
+          <li>Pendidikan minimal SMA/SMK/sederajat</li>
+          <li>Pengalaman sebagai kasir/pramuniaga diutamakan</li>
+          <li>Mampu berkomunikasi dengan baik</li>
+          <li>Full Time, Part Time</li>
+        </ul>
+      </div>
+      <a href="https://api.whatsapp.com/send?phone=6281223860200" target="_blank" rel="noopener noreferrer"
+        class="bg-[#9B6F41] text-white text-sm px-4 py-2 rounded hover:bg-gray-800 inline-block">
+        Apply Now
+      </a>
+    </div>
+        <div class="bg-yellow-300 rounded-xl p-6 shadow flex flex-col items-center text-center">
+      <img src="Assets/icon/logo 2.png" alt="Logo" class="h-10 mb-4">
+      <h4 class="font-medium">We Are Hiring</h4>
+      <h3 class="text-lg font-bold mt-1">Kasir</h3>
+      <p class="mb-4 text-sm text-gray-800">Outlet Banyumanik, Semarang</p>
+      <div class="text-left w-full">
+        <p class="font-semibold mb-1">Kualifikasi :</p>
+        <ul class="list-disc pl-5 text-sm text-gray-700 space-y-1 mb-6">
+          <li>Perempuan maksimal usia 30 tahun</li>
+          <li>Pendidikan minimal SMA/SMK/sederajat</li>
+          <li>Pengalaman sebagai kasir/pramuniaga diutamakan</li>
+          <li>Mampu berkomunikasi dengan baik</li>
+          <li>Full Time, Part Time</li>
+        </ul>
+      </div>
+      <a href="https://api.whatsapp.com/send?phone=6281223860200" target="_blank" rel="noopener noreferrer"
+        class="bg-[#9B6F41] text-white text-sm px-4 py-2 rounded hover:bg-gray-800 inline-block">
+        Apply Now
+      </a>
+    </div>
+        <div class="bg-yellow-300 rounded-xl p-6 shadow flex flex-col items-center text-center">
+      <img src="Assets/icon/logo 2.png" alt="Logo" class="h-10 mb-4">
+      <h4 class="font-medium">We Are Hiring</h4>
+      <h3 class="text-lg font-bold mt-1">Kasir</h3>
+      <p class="mb-4 text-sm text-gray-800">Outlet Banyumanik, Semarang</p>
+      <div class="text-left w-full">
+        <p class="font-semibold mb-1">Kualifikasi :</p>
+        <ul class="list-disc pl-5 text-sm text-gray-700 space-y-1 mb-6">
+          <li>Perempuan maksimal usia 30 tahun</li>
+          <li>Pendidikan minimal SMA/SMK/sederajat</li>
+          <li>Pengalaman sebagai kasir/pramuniaga diutamakan</li>
+          <li>Mampu berkomunikasi dengan baik</li>
+          <li>Full Time, Part Time</li>
+        </ul>
+      </div>
+      <a href="https://api.whatsapp.com/send?phone=6281223860200" target="_blank" rel="noopener noreferrer"
+        class="bg-[#9B6F41] text-white text-sm px-4 py-2 rounded hover:bg-gray-800 inline-block">
+        Apply Now
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- alamat cabang -->
+<section class="py-16 bg-white text-center">
+  <h2 class="text-2xl font-heading font-semibold mb-2">Alamat Cabang</h2>
+  <p class="text-gray-600 mb-8">Kunjungi cabang kami yang terdekat.</p>
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6 px-14">
+    <div class="bg-white rounded-lg overflow-hidden shadow">
+      <div class="w-full h-48">
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.1886362794608!2d110.76722097357616!3d-7.554399674589914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a155d58111cef%3A0xf78c63277f3d834d!2sOma%20Opa%20Cakery%20UMS!5e0!3m2!1sid!2sid!4v1748345828696!5m2!1sid!2sid" 
+          width="100%" 
+          height="100%" 
+          style="border:0;" 
+          allowfullscreen="" 
+          loading="lazy" 
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+      <div class="p-4 text-sm text-gray-700">
+        <h3 class="font-semibold">Oma Opa Cakery UNS</h3>
+        <p>Jl. Kartika Jl. Ngoresan No.1, Jebres, Kec. Jebres, Kota Surakarta, Jawa Tengah 57126</p>
+      </div>
+    </div>
+    <div class="bg-white rounded-lg overflow-hidden shadow">
+      <div class="w-full h-48">
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.187462624433!2d110.85553627357622!3d-7.554527874591382!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a1777f623d615%3A0x3759d0a8620df118!2sOma%20Opa%20Cakery%20UNS!5e0!3m2!1sid!2sid!4v1748402661823!5m2!1sid!2sid" 
+          width="100%" 
+          height="100%" 
+          style="border:0;" 
+          allowfullscreen="" 
+          loading="lazy" 
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+      <div class="p-4 text-sm text-gray-700">
+        <h3 class="font-semibold">Oma Opa Cakery Makamhaji</h3>
+        <p>Jl. Makam H. No.453-461, Dusun I, Makamhaji, Kec. Kartasura, Sukoharjo, Jawa tengah</p>
+      </div>
+    </div>
+        <div class="bg-white rounded-lg overflow-hidden shadow">
+      <div class="w-full h-48">
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.070827040308!2d110.77944467357642!3d-7.5672573747358!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a15b7fa95781d%3A0xb0780dbc28c9fa83!2sOma%20Opa%20Cakery%20Makamhaji!5e0!3m2!1sid!2sid!4v1748402786083!5m2!1sid!2sid" 
+          width="100%" 
+          height="100%" 
+          style="border:0;" 
+          allowfullscreen="" 
+          loading="lazy" 
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+      <div class="p-4 text-sm text-gray-700">
+        <h3 class="font-semibold">Oma Opa Cakery Laweyan Solo</h3>
+        <p>Jl. Dr. Rajiman No.495, Bumi, Kec. Laweyan, Kota Surakarta, Jawa Tengah 57148</p>
+      </div>
+    </div>
+    <div class="bg-white rounded-lg overflow-hidden shadow">
+      <div class="w-full h-48">
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.038331896223!2d110.79910657357647!3d-7.5708000747760185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a155daf343649%3A0xb59dbeaf6791738b!2sOma%20Opa%20Cakery%20Laweyan%20Solo!5e0!3m2!1sid!2sid!4v1748402896753!5m2!1sid!2sid" 
+          width="100%" 
+          height="100%" 
+          style="border:0;" 
+          allowfullscreen="" 
+          loading="lazy" 
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+      <div class="p-4 text-sm text-gray-700">
+        <h3 class="font-semibold">Oma Opa Cakery UMS</h3>
+        <p>Nilagraha, Gonilan, Kec. Kartasura, Kabupaten Sukoharjo, Jawa Tengah 57169</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="mt-10">
+    <a href="pages/alamat-cabang.html" class="bg-yellow-600 hover:bg-yellow-700 text-white font-medium py-2 px-6 rounded shadow inline-block">
+      View All
+    </a>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="py-16 bg-white">
+  <div class="text-center mb-10">
+    <h2 class="text-2xl font-semibold">FAQ</h2>
+    <p class="text-gray-600">Temukan jawaban atas pertanyaan umum seputar layanan dan produk kami.</p>
+  </div>
+
+  <div class="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 px-4">
+    <div class="border border-amber-700 rounded-lg overflow-hidden">
+      <button onclick="toggleFAQ(this)" class="w-full flex justify-between items-center px-4 py-3 text-left font-medium text-gray-800">
+        <span>Apa itu Oma Opa Cakery?</span>
+        <span class="text-xl font-bold transition-transform">+</span>
+      </button>
+      <div class="px-4 pb-4 hidden text-sm text-gray-600">
+        Oma Opa Cakery adalah toko bolu khas dengan cita rasa rumahan dan bahan berkualitas.
+      </div>
+    </div>
+
+    <div class="border border-amber-700 rounded-lg overflow-hidden">
+      <button onclick="toggleFAQ(this)" class="w-full flex justify-between items-center px-4 py-3 text-left font-medium text-gray-800">
+        <span>Apakah bisa pesan untuk acara khusus atau dalam jumlah banyak?</span>
+        <span class="text-xl font-bold transition-transform">+</span>
+      </button>
+      <div class="px-4 pb-4 hidden text-sm text-gray-600">
+        Ya, kami menerima pemesanan dalam jumlah besar untuk acara khusus, silakan hubungi kami terlebih dahulu.
+      </div>
+    </div>
+
+    <div class="border border-amber-700 rounded-lg overflow-hidden">
+      <button onclick="toggleFAQ(this)" class="w-full flex justify-between items-center px-4 py-3 text-left font-medium text-gray-800">
+        <span>Produk apa saja yang tersedia?</span>
+        <span class="text-xl font-bold transition-transform">+</span>
+      </button>
+      <div class="px-4 pb-4 hidden text-sm text-gray-600">
+        Kami menyediakan berbagai varian bolu dengan topping dan rasa yang beragam, baik klasik maupun modern.
+      </div>
+    </div>
+
+    <div class="border border-amber-700 rounded-lg overflow-hidden">
+      <button onclick="toggleFAQ(this)" class="w-full flex justify-between items-center px-4 py-3 text-left font-medium text-gray-800">
+        <span>Di mana saja lokasi outlet Oma Opa Cakery?</span>
+        <span class="text-xl font-bold transition-transform">+</span>
+      </button>
+      <div class="px-4 pb-4 hidden text-sm text-gray-600">
+        Lokasi outlet kami tersedia di UMS, UNS, Makamhaji, dan Laweyan Solo.
+      </div>
+    </div>
+
+    <div class="border border-amber-700 rounded-lg overflow-hidden">
+      <button onclick="toggleFAQ(this)" class="w-full flex justify-between items-center px-4 py-3 text-left font-medium text-gray-800">
+        <span>Apakah bolu Oma Opa menggunakan bahan pengawet?</span>
+        <span class="text-xl font-bold transition-transform">+</span>
+      </button>
+      <div class="px-4 pb-4 hidden text-sm text-gray-600">
+        Tidak. Kami menggunakan bahan-bahan segar dan tidak memakai pengawet.
+      </div>
+    </div>
+
+    <div class="border border-amber-700 rounded-lg overflow-hidden">
+      <button onclick="toggleFAQ(this)" class="w-full flex justify-between items-center px-4 py-3 text-left font-medium text-gray-800">
+        <span>Apakah bisa memilih topping sendiri?</span>
+        <span class="text-xl font-bold transition-transform">+</span>
+      </button>
+      <div class="px-4 pb-4 hidden text-sm text-gray-600">
+        Ya, kamu bisa memilih berbagai topping sesuai selera saat melakukan pemesanan.
+      </div>
+    </div>
+
+    <div class="border border-amber-700 rounded-lg overflow-hidden">
+      <button onclick="toggleFAQ(this)" class="w-full flex justify-between items-center px-4 py-3 text-left font-medium text-gray-800">
+        <span>Bagaimana cara memesan produk Oma Opa Cakery?</span>
+        <span class="text-xl font-bold transition-transform">+</span>
+      </button>
+      <div class="px-4 pb-4 hidden text-sm text-gray-600">
+        Kamu bisa memesan langsung di outlet, melalui WhatsApp, atau via marketplace kami.
+      </div>
+    </div>
+
+    <div class="border border-amber-700 rounded-lg overflow-hidden">
+      <button onclick="toggleFAQ(this)" class="w-full flex justify-between items-center px-4 py-3 text-left font-medium text-gray-800">
+        <span>Bagaimana cara menyimpan bolu agar tetap awet?</span>
+        <span class="text-xl font-bold transition-transform">+</span>
+      </button>
+      <div class="px-4 pb-4 hidden text-sm text-gray-600">
+        Simpan bolu di tempat sejuk atau kulkas dalam wadah tertutup, konsumsi dalam 3 hari.
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- gallery -->
+<section class="py-12 bg-white">
+  <div class="max-w-6xl mx-auto px-4">
+    <div class="text-center mb-8">
+      <h2 class="text-xl font-heading font-semibold">Gallery</h2>
+      <p class="text-gray-600">Lihat serunya aktivitas kami, dari balik layar hingga momen berkesan.</p>
+    </div>
+
+    <div class="grid grid-cols-4 grid-rows-3 gap-4 auto-rows-fr">
+      <img src="Assets/image/gallery 1.png" alt="Gallery 1" class="col-start-1 row-start-1 w-full h-full object-cover rounded-lg" />
+      <img src="Assets/image/gallery 2.png" alt="Gallery 2" class="col-start-2 row-start-1 w-full h-full object-cover rounded-lg" />
+      <img src="Assets/image/gallery 3.png" alt="Gallery 3" class="col-start-3 row-start-1 w-full h-full object-cover rounded-lg" />
+      <img src="Assets/image/gallery 4.png" alt="Gallery 4" class="col-start-4 row-start-1 row-span-2 w-full h-full object-cover rounded-lg" />
+      <img src="Assets/image/gallery 5.png" alt="Gallery 5" class="col-start-1 row-start-2 row-span-2 w-full h-full object-cover rounded-lg" />
+      <img src="Assets/image/gallery 6.png" alt="Gallery 6" class="col-start-2 row-start-2 w-full h-full object-cover rounded-lg" />
+      <img src="Assets/image/gallery 7.png" alt="Gallery 7" class="col-start-3 row-start-2 w-full h-full object-cover rounded-lg" />
+      <img src="Assets/image/gallery 8.png" alt="Gallery 8" class="col-start-2 row-start-3 w-full h-full object-cover rounded-lg" />
+      <img src="Assets/image/gallery 9.png" alt="Gallery 9" class="col-start-3 row-start-3 w-full h-full object-cover rounded-lg" />
+      <img src="Assets/image/gallery 10.png" alt="Gallery 10" class="col-start-4 row-start-3 w-full h-full object-cover rounded-lg" />
+    </div>
+  </div>
+</section>
+
+<!-- sosmed -->
+<section class="py-16 bg-white text-center">
+  <h2 class="text-xl font-heading font-semibold">Temukan kami di Sosial Media</h2>
+  <p class="text-gray-600 mb-6">Ikuti kami di sosial media untuk update terbaru dan informasi penting.</p>
+  <div class="flex justify-center gap-12">
+    <a href="https://api.whatsapp.com/send?phone=6281223860200" target="_blank" class="flex flex-col items-center">
+      <img src="Assets/icon/footer 1.png" alt="WhatsApp" class="w-16 h-16 rounded-full" />
+      <span class="mt-2 text-sm">WhatsApp</span>
+    </a>
+    <a href="https://instagram.com/omaopa.cakery" target="_blank" class="flex flex-col items-center">
+      <img src="Assets/icon/footer 2.png" alt="Instagram" class="w-16 h-16 rounded-full" />
+      <span class="mt-2 text-sm">Instagram</span>
+    </a>
+    <a href="https://www.tiktok.com/@omaopa_cakery?_t=ZS-8wijPa0jlMV&_r=1" target="_blank" class="flex flex-col items-center">
+      <img src="Assets/icon/footer 3.png" alt="TikTok" class="w-16 h-16 rounded-full" />
+      <span class="mt-2 text-sm">TikTok</span>
+    </a>
+  </div>
+</section>
+
+<!-- marketplace -->
+<section class="py-16 bg-white text-center">
+  <h2 class="text-xl font-heading font-semibold">Tersedia di Marketplace</h2>
+  <p class="text-gray-600 mb-6">Temukan produk kami di marketplace berikut.</p>
+  <div class="flex justify-center gap-12">
+    <a href="https://gofood.link/a/JvrFqbQ" target="_blank" class="flex flex-col items-center">
+      <img src="Assets/icon/footer 4.png" alt="Gojek" class="w-16 h-16 rounded-full" />
+      <span class="mt-2 text-sm">Gojek</span>
+    </a>
+    <a href="https://shopee.co.id/philipsuryadi" target="_blank" class="flex flex-col items-center">
+      <img src="Assets/icon/footer 5.png" alt="Shopee" class="w-16 h-16 rounded-full" />
+      <span class="mt-2 text-sm">Shopee</span>
+    </a>
+    <a href="https://www.tokopedia.com/omaopa" target="_blank" class="flex flex-col items-center">
+      <img src="Assets/icon/footer 6.png" alt="Tokopedia" class="w-16 h-16 rounded-full" />
+      <span class="mt-2 text-sm">Tokopedia</span>
+    </a>
+  </div>
+</section>
+
+<!-- hubungi -->
+ <section class="py-16 bg-white text-center">
+  <h2 class="text-xl font-heading font-semibold">Hubungi Kami</h2>
+  <p class="text-gray-600 mb-8">Isi formulir di bawah, kami akan segera merespons.</p>
+
+  <form action="https://formspree.io/f/xanorwkl" method="POST" class="max-w-4xl mx-auto border p-8 rounded">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div class="flex flex-col text-left">
+        <label class="text-sm text-gray-600 mb-1">First Name</label>
+        <input name="firstName" type="text" required class="border-b outline-none py-1" />
+      </div>
+      <div class="flex flex-col text-left">
+        <label class="text-sm text-gray-600 mb-1">Last Name</label>
+        <input name="lastName" type="text" required class="border-b outline-none py-1" />
+      </div>
+      <div class="flex flex-col text-left">
+        <label class="text-sm text-gray-600 mb-1">Email</label>
+        <input name="email" type="email" required class="border-b outline-none py-1" />
+      </div>
+      <div class="flex flex-col text-left">
+        <label class="text-sm text-gray-600 mb-1">No. Telp</label>
+        <input name="phone" type="tel" class="border-b outline-none py-1" />
+      </div>
+    </div>
+
+    <div class="mt-6 text-left">
+      <label class="text-sm text-gray-600 mb-1 block">Message</label>
+      <textarea name="message" rows="4" class="w-full border-b outline-none py-1" placeholder="Write your message.." required></textarea>
+    </div>
+
+  <button type="submit" class="mt-6 px-6 py-2 bg-[#a36226] text-white rounded-full flex items-center gap-2 hover:bg-[#864c1b]">
+    <img src="Assets/icon/send.png" alt="Send Icon" class="w-5 h-5" />
+    <span>Send Message</span>
+  </button>
+
+  </form>
+</section>
+
+<!-- Section: Temukan Kami -->
+<section class="py-16 bg-white">
+  <div class="max-w-4xl mx-auto text-center px-4">
+    <h2 class="text-xl font-heading font-semibold text-gray-800 tracking-wide mb-2">Temukan Kami</h2>
+    <p class="text-gray-600 mb-8">Lihat lokasi kami di peta dan temukan rute terbaik untuk datang.</p>
+
+    <div class="w-full h-[400px] rounded-xl overflow-hidden shadow-md">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.1886362794608!2d110.76722097357616!3d-7.554399674589914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a155d58111cef%3A0xf78c63277f3d834d!2sOma%20Opa%20Cakery%20UMS!5e0!3m2!1sid!2sid!4v1748345828696!5m2!1sid!2sid"
+        width="100%"
+        height="100%"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        class="border-0"
+      ></iframe>
+    </div>
+  </div>
+</section>
+
+<!-- Section: Blog -->
+<section class="py-16 bg-white">
+  <div class="max-w-7xl mx-auto px-4 text-center">
+    <h2 class="font-heading text-xl font-semibold text-gray-800 mb-2">Blog</h2>
+    <p class="text-gray-600 mb-12">Temukan inspirasi terbaru dari blog Oma Opa Cakery di sini.</p>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-4 md:px-8">
+      <div class="border rounded-md p-4 shadow-sm text-left">
+        <img src="Assets/image/blog 1.png" alt="Blog 1" class="w-full h-48 object-cover mb-3 rounded-md">
+        <p class="text-sm text-gray-500 mb-1">By Auleriana | 2 April 2025</p>
+        <h3 class="font-heading font-semibold text-gray-800 mb-2">Rahasia Tekstur Lembut Bolu Ala Oma Opa</h3>
+        <p class="text-gray-600 mb-4 text-sm">Mengulas teknik sederhana namun ampuh yang membuat bolu tetap lembut meski tanpa pengawet.</p>
+        <a href="/blog/rahasia-bolu-lembut.html" class="px-4 py-2 text-sm text-[#6B3F28] border border-[#6B3F28] rounded-md bg-[#FAF8F3] hover:bg-[#6B3F28] hover:text-white transition">Read More</a>
+      </div>
+
+      <div class="border rounded-md p-4 shadow-sm text-left">
+        <img src="Assets/image/blog 2.png" alt="Blog 2" class="w-full h-48 object-cover mb-3 rounded-md">
+        <p class="text-sm text-gray-500 mb-1">By Laila Yusroni | 6 Maret 2025</p>
+        <h3 class="font-heading font-semibold text-gray-800 mb-2">Bingkisan Manis: Bolu sebagai Hadiah yang Berkesan</h3>
+        <p class="text-gray-600 mb-4 text-sm">Cerita pelanggan yang memilih bolu Oma Opa sebagai hampers ulang tahun.</p>
+        <a href="/blog/bolu-hadiah.html" class="px-4 py-2 text-sm text-[#6B3F28] border border-[#6B3F28] rounded-md bg-[#FAF8F3] hover:bg-[#6B3F28] hover:text-white transition">Read More</a>
+      </div>
+
+      <div class="border rounded-md p-4 shadow-sm text-left">
+        <img src="Assets/image/blog 3.png" alt="Blog 3" class="w-full h-48 object-cover mb-3 rounded-md">
+        <p class="text-sm text-gray-500 mb-1">By Annisa Putri | 17 Januari 2025</p>
+        <h3 class="font-heading font-semibold text-gray-800 mb-2">Matcha, Keju, Coklat: Mana Topping Favoritmu?</h3>
+        <p class="text-gray-600 mb-4 text-sm">Review rasa dan cerita menarik dari pelanggan tentang topping favorit mereka.</p>
+        <a href="/blog/topping-favorit.html" class="px-4 py-2 text-sm text-[#6B3F28] border border-[#6B3F28] rounded-md bg-[#FAF8F3] hover:bg-[#6B3F28] hover:text-white transition">Read More</a>
+      </div>
+
+      <div class="border rounded-md p-4 shadow-sm text-left">
+        <img src="Assets/image/blog 1.png" alt="Blog 3" class="w-full h-48 object-cover mb-3 rounded-md">
+        <p class="text-sm text-gray-500 mb-1">By Bayu Setiawan | 2 Mei 2025</p>
+        <h3 class="font-heading font-semibold text-gray-800 mb-2">Ngobrol Sambil Nyemil: Tradisi Sederhana yang Dirindukan</h3>
+        <p class="text-gray-600 mb-4 text-sm">Refleksi kecil tentang momen ngobrol santai di teras rumah dengan camilan khas Oma Opa Cakery.</p>
+        <a href="/blog/topping-favorit.html" class="px-4 py-2 text-sm text-[#6B3F28] border border-[#6B3F28] rounded-md bg-[#FAF8F3] hover:bg-[#6B3F28] hover:text-white transition">Read More</a>
+      </div>
+
+      <div class="border rounded-md p-4 shadow-sm text-left">
+        <img src="Assets/image/blog 4.png" alt="Blog 3" class="w-full h-48 object-cover mb-3 rounded-md">
+        <p class="text-sm text-gray-500 mb-1">By Raka Prasetyo | 6 April 2025</p>
+        <h3 class="font-heading font-semibold text-gray-800 mb-2">Perjalanan Bolu Mini: Kecil-Kecil Jadi Idola Baru</h3>
+        <p class="text-gray-600 mb-4 text-sm">Ulasan tentang kenapa bolu mini menjadi inovasi yang disukai semua kalangan karena praktis dan imut.</p>
+        <a href="/blog/topping-favorit.html" class="px-4 py-2 text-sm text-[#6B3F28] border border-[#6B3F28] rounded-md bg-[#FAF8F3] hover:bg-[#6B3F28] hover:text-white transition">Read More</a>
+      </div>
+
+      <div class="border rounded-md p-4 shadow-sm text-left">
+        <img src="Assets/image/blog 5.png" alt="Blog 3" class="w-full h-48 object-cover mb-3 rounded-md">
+        <p class="text-sm text-gray-500 mb-1">By Ratih Nurhaliza | 21 Februari 2025</p>
+        <h3 class="font-heading font-semibold text-gray-800 mb-2">Cerita Mitra: Dari Pelanggan Setia Menjadi Pengusaha Bolu</h3>
+        <p class="text-gray-600 mb-4 text-sm">Kisah inspiratif seorang mitra Oma Opa yang berhasil membuka cabang sendiri berkat peluang kemitraan.</p>
+        <a href="/blog/topping-favorit.html" class="px-4 py-2 text-sm text-[#6B3F28] border border-[#6B3F28] rounded-md bg-[#FAF8F3] hover:bg-[#6B3F28] hover:text-white transition">Read More</a>
+      </div>
+    </div>
+    <div class="mt-10">
+      <a href="pages/blog.html" class="mt-6 inline-block px-6 py-2 text-white bg-[#6B3F28] rounded-md hover:bg-[#56301F] transition">See More</a>
+    </div>
+  </div>
+</section>
+
+<!-- astribusi asset -->
+<section class="py-10 px-4">
+  <div class="max-w-5xl mx-auto">
+    <h2 class="font-heading text-center text-xl font-semibold mb-1">Atribusi Asset</h2>
+    <p class="text-center text-sm text-gray-600 mb-6">Seluruh aset di website ini milik Oma Opa Cakery</p>
+
+    <div class="overflow-x-auto">
+      <table class="min-w-full border border-gray-300 text-sm text-left">
+        <thead>
+          <tr class="bg-gray-100">
+            <th class="border border-gray-300 px-4 py-2 w-12 text-center">No</th>
+            <th class="border border-gray-300 px-4 py-2">Asset</th>
+            <th class="border border-gray-300 px-4 py-2">Link Sumber</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="border border-gray-300 px-4 py-4 text-center align-top">1.</td>
+            <td class="border border-gray-300 px-4 py-4">
+              <img src="Assets/image/portfolio.jpg" alt="sertifikat" class="h-24 object-contain" />
+            </td>
+            <td class="border border-gray-300 px-4 py-4 align-top">
+              <a href="https://www.facebook.com/omaopac. cakery/posts/791886637818322?ref=embed_post"
+                 class="text-blue-600 hover:underline break-all"
+                 target="_blank">
+                https://www.facebook.com/omaopac.cakery/posts/791886637818322?ref=embed_post
+              </a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- footer -->
+<footer class="bg-[#7b4a22] text-white px-6 pt-10 pb-6">
+  <div class="max-w-7xl mx-auto">
+    <div class="grid grid-cols-1 md:grid-cols-5 gap-4">
+      <div class="md:col-span-1 flex justify-center md:justify-start pl-10">
+        <img src="Assets/icon/logo.jpeg" alt="Logo Oma Opa" class="w-24 h-auto object-contain" />
+      </div>
+      <div class="md:col-span-4 text-sm text-justify max-w-4xl pl-96">
+        <p>
+          OMA OPA CAKERY menghadirkan kelezatan kue rumahan dengan resep turun-temurun dari Oma dan Opa. Kami percaya bahwa setiap gigitan membawa kehangatan, nostalgia, dan rasa cinta.
+        </p>
+        <br>
+        <div class="flex justify-start mt-2 gap-3">
+          <p class="text-sm font-medium">Sosial Media & Marketplace:</p>
+          <a href="https://api.whatsapp.com/send?phone=6281223860200" target="_blank">
+            <img src="Assets/icon/footer 1.png" alt="WA" class="w-6 h-6" />
+          </a>
+          <a href="https://instagram.com/omaopa_cakery" target="_blank">
+            <img src="Assets/icon/footer 2.png" alt="IG" class="w-6 h-6" />
+          </a>
+          <a href="https://www.tiktok.com/@omaopa_cakery?_t=ZS-8wijPa0jlMV&_r=1" target="_blank">
+            <img src="Assets/icon/footer 3.png" alt="TikTok" class="w-6 h-6" />
+          </a>
+          <a href="https://gofood.link/a/JvrFqbQ" target="_blank">
+            <img src="Assets/icon/footer 4.png" alt="Gojek" class="w-6 h-6" />
+          </a>
+          <a href="https://shopee.co.id/philipsuryadi" target="_blank">
+            <img src="Assets/icon/footer 5.png" alt="Shopee" class="w-6 h-6" />
+          </a>
+          <a href="https://www.tokopedia.com/omaopa" target="_blank">
+            <img src="Assets/icon/footer 6.png" alt="Tokopedia" class="w-6 h-6" />
+          </a>
+        </div>
+      </div>
+    </div>
+    <hr class="border-t border-white opacity-50 my-6">
+    <div class="flex flex-col md:flex-row md:justify-between text-sm text-center md:text-left gap-3">
+      <div class="flex justify-center md:justify-start gap-6">
+        <a href="index.html" class="hover:underline">Home</a>
+        <a href="pages/tentang-kami.html" class="hover:underline">Tentang Kami</a>
+        <a href="pages/produk.html" class="hover:underline">Produk</a>
+        <a href="pages/blog.html" class="hover:underline">Blog</a>
+        <a href="pages/kontak.html" class="hover:underline">Contact</a>
+      </div>
+      <div class="text-xs text-gray-200">
+        © 2025 omaopa cakery. All Rights Reserved.
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+<script src="../detail.js"></script>
+</body>
+</html>

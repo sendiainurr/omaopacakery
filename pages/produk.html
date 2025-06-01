@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OMA OPA CAKERY</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Playfair+Display&display=swap" rel="stylesheet">
+  <link rel="icon" href="Assets/icon/logo 2.png" type="image/png">
+    <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Open Sans', 'sans-serif'],
+            heading: ['Playfair Display', 'serif'],
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="font-sans bg-white text-gray-800">
+
+  <header class="bg-[#6F4525] text-white fixed top-0 left-0 w-full z-50">
+    <div class="max-w-7xl mx-auto flex justify-between items-center p-4">
+      <img src="../Assets/icon/logo.jpeg" alt="Logo" class="h-10">
+      <nav class="space-x-6 hidden md:block">
+        <a href="../index.html" class="hover:text-yellow-300">Home</a>
+        <a href="../pages/tentang-kami.html" class="hover:text-yellow-300">Tentang Kami</a>
+        <a href="../pages/produk.html" class="hover:text-yellow-300">Produk</a>
+        <a href="../pages/blog.html" class="hover:text-yellow-300">Blog</a>
+        <a href="../pages/kontak.html" class="hover:text-yellow-300">Kontak</a>
+      </nav>
+      <a href="../pages/kontak.html" class="bg-[#DDCFAB] text-[#333237] px-4 py-2 rounded hover:bg-yellow-200">Hubungi Kami</a>
+    </div>
+  </header>
+
+    <section class="relative h-[300px] md:h-[200px] overflow-hidden">
+    <img src="../Assets/image/bg tentang kami.png" alt="Background Tentang Kami" class="absolute inset-0 w-full h-full object-cover brightness-75">
+    <div class="relative z-10 flex items-center justify-center h-full">
+      <h1 class="text-white text-3xl md:text-4xl font-heading font-semibold tracking-wider">PRODUK</h1>
+    </div>
+    </section>
+    <main>
+
+  <section class="bg-white py-16">
+  <div class="max-w-7xl mx-auto px-6">
+  <div class="flex justify-center gap-4 mb-10">
+    <button class="filter-btn bg-[#e9dbb2] text-white px-4 py-2 rounded-full font-medium text-sm shadow" data-filter="all">ALL</button>
+    <button class="filter-btn text-gray-700 px-4 py-2 rounded-full font-medium text-sm hover:bg-gray-200" data-filter="mini ogura">MINI OGURA</button>
+    <button class="filter-btn text-gray-700 px-4 py-2 rounded-full font-medium text-sm hover:bg-gray-200" data-filter="ogura">OGURA</button>
+    <button class="filter-btn text-gray-700 px-4 py-2 rounded-full font-medium text-sm hover:bg-gray-200" data-filter="malmil">MALMIL</button>
+  </div>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+      <div class="bg-white rounded-xl overflow-hidden shadow-sm" data-kategori="ogura">
+        <img src="../Assets/image/produk 1.png" alt="Ogura Cheese Topping Half Mix" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h3 class="text-sm font-heading font-medium text-gray-800">Ogura Cheese Topping Half Mix</h3>
+          <p class="text-sm text-gray-600">Rp. 56.000,00</p>
+          <a href="detail produk.html?id=1" class="mt-2 border border-gray-800 text-sm px-4 py-1 rounded-full hover:bg-gray-100 inline-block">beli</a>
+        </div>
+      </div>
+      <div class="bg-white rounded-xl overflow-hidden shadow-sm" data-kategori="mini ogura">
+        <img src="../Assets/image/produk 2.png" alt="Ogura Choco Topping Half Mix" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h3 class="text-sm font-heading font-medium text-gray-800">Ogura Choco Topping Half Mix</h3>
+          <p class="text-sm text-gray-600">Rp. 56.000,00</p>
+          <a href="detail produk.html?id=2" class="mt-2 border border-gray-800 text-sm px-4 py-1 rounded-full hover:bg-gray-100 inline-block text-center">
+            beli
+          </a>
+        </div>
+      </div>
+      <div class="bg-white rounded-xl overflow-hidden shadow-sm" data-kategori="malmil">
+        <img src="../Assets/image/produk 3.png" alt="Ogura Choco Topping Half Mix" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h3 class="text-sm font-heading font-medium text-gray-800">Ogura Choco Topping Half Mix</h3>
+          <p class="text-sm text-gray-600">Rp. 56.000,00</p>
+          <a href="detail produk.html?id=3" class="mt-2 border border-gray-800 text-sm px-4 py-1 rounded-full hover:bg-gray-100 inline-block text-center">
+            beli
+          </a>
+        </div>
+      </div>
+      <div class="bg-white rounded-xl overflow-hidden shadow-sm" data-kategori="mini ogura">
+        <img src="../Assets/image/produk 4.png" alt="Ogura Choco Topping Half Mix" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h3 class="text-sm font-heading font-medium text-gray-800">Ogura Choco Topping Half Mix</h3>
+          <p class="text-sm text-gray-600">Rp. 56.000,00</p>
+          <a href="detail produk.html?id=4" class="mt-2 border border-gray-800 text-sm px-4 py-1 rounded-full hover:bg-gray-100 inline-block text-center">
+            beli
+          </a>
+        </div>
+      </div>
+      <div class="bg-white rounded-xl overflow-hidden shadow-sm" data-kategori="ogura">
+        <img src="../Assets/image/produk 5.png" alt="Ogura Choco Topping Half Mix" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h3 class="text-sm font-heading font-medium text-gray-800">Ogura Choco Topping Half Mix</h3>
+          <p class="text-sm text-gray-600">Rp. 56.000,00</p>
+          <a href="detail produk.html?id=5" class="mt-2 border border-gray-800 text-sm px-4 py-1 rounded-full hover:bg-gray-100 inline-block text-center">
+            beli
+          </a>
+        </div>
+      </div>
+      <div class="bg-white rounded-xl overflow-hidden shadow-sm" data-kategori="ogura">
+        <img src="../Assets/image/produk 6.png" alt="Ogura Choco Topping Half Mix" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h3 class="text-sm font-heading font-medium text-gray-800">Ogura Choco Topping Half Mix</h3>
+          <p class="text-sm text-gray-600">Rp. 56.000,00</p>
+          <a href="detail produk.html?id=6" class="mt-2 border border-gray-800 text-sm px-4 py-1 rounded-full hover:bg-gray-100 inline-block text-center">
+            beli
+          </a>
+        </div>
+      </div>
+      <div class="bg-white rounded-xl overflow-hidden shadow-sm" data-kategori="malmil">
+        <img src="../Assets/image/produk 7.png" alt="Ogura Choco Topping Half Mix" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h3 class="text-sm font-heading font-medium text-gray-800">Ogura Choco Topping Half Mix</h3>
+          <p class="text-sm text-gray-600">Rp. 56.000,00</p>
+          <a href="detail produk.html?id=7" class="mt-2 border border-gray-800 text-sm px-4 py-1 rounded-full hover:bg-gray-100 inline-block text-center">
+            beli
+          </a>
+        </div>
+      </div>
+      <div class="bg-white rounded-xl overflow-hidden shadow-sm" data-kategori="ogura">
+        <img src="../Assets/image/produk 8.png" alt="Mini Ogura 3 Rasa" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h3 class="text-sm font-heading font-medium text-gray-800">Mini Ogura 3 Rasa</h3>
+          <p class="text-sm text-gray-600">Rp. 37.000,00</p>
+          <a href="detail produk.html?id=8" class="mt-2 border border-gray-800 text-sm px-4 py-1 rounded-full hover:bg-gray-100 inline-block text-center">
+            beli
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- promo -->
+<section class="py-10 text-center">
+    <h2 class="text-2xl font-heading font-semibold mb-2">PROMO</h2>
+    <p class="text-gray-600 mb-6">Rayakan harimu dengan promo manis dari Oma Opa</p>
+
+    <!-- Container Slider -->
+    <div class="relative max-w-5xl mx-auto overflow-hidden">
+      <div id="slider" class="flex transition-transform duration-500 ease-in-out">
+        <!-- Slide 1 -->
+        <div class="flex-shrink-0 w-full grid grid-cols-1 md:grid-cols-3 gap-4 px-4">
+          <img src="../Assets/image/promo 1.png" alt="Promo 1" class="w-full rounded shadow">
+          <img src="../Assets/image/promo 2.png" alt="Promo 2" class="w-full rounded shadow">
+          <img src="../Assets/image/promo 3.png" alt="Promo 3" class="w-full rounded shadow">
+        </div>
+        <!-- Slide 2 -->
+        <div class="flex-shrink-0 w-full grid grid-cols-1 md:grid-cols-3 gap-4 px-4">
+          <img src="../Assets/image/promo 2.png" alt="Promo 4" class="w-full rounded shadow">
+          <img src="../Assets/image/promo 1.png" alt="Promo 5" class="w-full rounded shadow">
+          <img src="../Assets/image/promo 3.png" alt="Promo 6" class="w-full rounded shadow">
+        </div>
+        <!-- Slide 3 -->
+        <div class="flex-shrink-0 w-full grid grid-cols-1 md:grid-cols-3 gap-4 px-4">
+          <img src="../Assets/image/promo 1.png" alt="Promo 7" class="w-full rounded shadow">
+          <img src="../Assets/image/promo 3.png" alt="Promo 8" class="w-full rounded shadow">
+          <img src="../Assets/image/promo 2.png" alt="Promo 9" class="w-full rounded shadow">
+        </div>
+      </div>
+    </div>
+
+    <!-- Indicator -->
+    <div id="indicators" class="flex justify-center mt-6 space-x-3">
+      <button data-index="0" onclick="goToSlide(0)" class="indicator w-4 h-4 rounded-full bg-gray-300"></button>
+      <button data-index="1" onclick="goToSlide(1)" class="indicator w-4 h-4 rounded-full bg-gray-300"></button>
+      <button data-index="2" onclick="goToSlide(2)" class="indicator w-4 h-4 rounded-full bg-gray-300"></button>
+    </div>
+  </section>
+    </main>
+
+
+
+  <footer class="bg-[#7b4a22] text-white px-6 pt-10 pb-6">
+  <div class="max-w-7xl mx-auto">
+    <div class="grid grid-cols-1 md:grid-cols-5 gap-4">
+      <div class="md:col-span-1 flex justify-center md:justify-start pl-10">
+        <img src="../Assets/icon/logo.jpeg" alt="Logo Oma Opa" class="w-24 h-auto object-contain" />
+      </div>
+      <div class="md:col-span-4 text-sm text-justify max-w-4xl pl-96">
+        <p>
+          OMA OPA CAKERY menghadirkan kelezatan kue rumahan dengan resep turun-temurun dari Oma dan Opa. Kami percaya bahwa setiap gigitan membawa kehangatan, nostalgia, dan rasa cinta.
+        </p>
+        <br>
+        <div class="flex justify-start mt-2 gap-3">
+          <p class="text-sm font-medium">Sosial Media & Marketplace:</p>
+          <a href="https://api.whatsapp.com/send?phone=6281223860200" target="_blank">
+            <img src="../Assets/icon/footer 1.png" alt="WA" class="w-6 h-6" />
+          </a>
+          <a href="https://instagram.com/omaopa_cakery" target="_blank">
+            <img src="../Assets/icon/footer 2.png" alt="IG" class="w-6 h-6" />
+          </a>
+          <a href="https://www.tiktok.com/@omaopa_cakery?_t=ZS-8wijPa0jlMV&_r=1" target="_blank">
+            <img src="../Assets/icon/footer 3.png" alt="TikTok" class="w-6 h-6" />
+          </a>
+          <a href="https://gofood.link/a/JvrFqbQ" target="_blank">
+            <img src="../Assets/icon/footer 4.png" alt="Gojek" class="w-6 h-6" />
+          </a>
+          <a href="https://shopee.co.id/philipsuryadi" target="_blank">
+            <img src="../Assets/icon/footer 5.png" alt="Shopee" class="w-6 h-6" />
+          </a>
+          <a href="https://www.tokopedia.com/omaopa" target="_blank">
+            <img src="../Assets/icon/footer 6.png" alt="Tokopedia" class="w-6 h-6" />
+          </a>
+        </div>
+      </div>
+    </div>
+    <hr class="border-t border-white opacity-50 my-6">
+    <div class="flex flex-col md:flex-row md:justify-between text-sm text-center md:text-left gap-3">
+      <div class="flex justify-center md:justify-start gap-6">
+        <a href="../index.html" class="hover:underline">Home</a>
+        <a href="../pages/tentang-kami.html" class="hover:underline">Tentang Kami</a>
+        <a href="../pages/produk.html" class="hover:underline">Produk</a>
+        <a href="../pages/blog.html" class="hover:underline">Blog</a>
+        <a href="../pages/kontak.html" class="hover:underline">Contact</a>
+      </div>
+      <div class="text-xs text-gray-200">
+        © 2025 omaopa cakery. All Rights Reserved.
+      </div>
+    </div>
+  </div>
+</footer>
+<script src="../script.js"></script>
+<script src="../detail.js"></script>
+</body>
+</html>
